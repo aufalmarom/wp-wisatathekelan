@@ -1,0 +1,8 @@
+#pt-portfolio-options input, 
+#pt-portfolio-options select,
+#pt-team-options input, 
+#pt-team-options select,
+#pt-testimonials-options input, 
+#pt-testimonials-options select{
+    padding: 10px;
+}

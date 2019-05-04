@@ -1,0 +1,15 @@
+/* Vega - Customizer Styles */
+
+#accordion-section-vega_wp_upgrade_section .accordion-section-title{background-color:#6600cc;color:white}
+#accordion-section-vega_wp_upgrade_section #customize-control-vega_wp_upgrade_to_pro {display: none !important;}
+#accordion-section-vega_wp_upgrade_section .customize-section-description{color:purple !important; background-color:#fff;padding:10px;}
+#accordion-section-vega_wp_upgrade_section .customize-section-description h3{color:purple !important; text-transform:uppercase;}
+#accordion-section-vega_wp_upgrade_section .customize-section-description a{color:black !important; text-transform:uppercase;text-decoration:underline}
+
+#accordion-section-vega_wp_info_section .accordion-section-title{background-color:#eee;}
+#accordion-section-vega_wp_info_section #customize-control-vega_wp_info {display: none !important;}
+#accordion-section-vega_wp_info_section .customize-section-description{color:#000 !important; background-color:#fff;padding:10px;}
+#accordion-section-vega_wp_info_section .customize-section-description h3{color:#000 !important; text-transform:uppercase;}
+#accordion-section-vega_wp_info_section .customize-section-description a{color:purple !important; text-decoration:underline}
+
+.customize-control-textarea textarea {height:500px;}

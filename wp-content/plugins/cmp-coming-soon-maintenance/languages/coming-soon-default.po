@@ -1,0 +1,481 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: cmp\n"
+"POT-Creation-Date: 2017-09-28 22:25+0200\n"
+"PO-Revision-Date: 2017-09-28 22:25+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.1\n"
+"X-Poedit-Basepath: ../../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: cmp-coming-soon-maintenance/tags/1.4.0\n"
+"X-Poedit-SearchPath-1: cmp-premium-themes\n"
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:272
+msgid "<p class=\"cmp-success\">Successfully installed new Theme!</p>"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:275
+msgid "<p class=\"cmp-error\">There was an error unzipping the file!</p>"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:279
+msgid "<p class=\"cmp-error\">Error creating Theme subdirectory!</p>"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:303
+msgid ""
+"JavaScript appears to be disabled in your browser. For this plugin to work "
+"correctly, please enable JavaScript or switch to a more modern browser."
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:318
+msgid "Settings"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:319
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:642
+msgid "Content"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:320
+msgid "SEO"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:321
+msgid "Custom CSS"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:322
+msgid "Preview"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:323
+msgid "Install New Theme"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:327
+msgid "General Settings"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:330
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:334
+msgid "Status"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:337
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:682
+msgid "Disabled"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:338
+msgid ""
+"Disable plugin and display standard WordPress page to all users and indexing "
+"engines."
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:341
+msgid "Maintanance Mode"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:342
+msgid ""
+"Returns 503 HTTP Service unavailable code to indexing robots. Set this "
+"option if your site is down due to maintanance and you want to display "
+"Maintanance page."
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:345
+msgid "Coming Soon"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:346
+msgid ""
+"Returns standard 200 HTTP OK response code to indexing robots. Set this "
+"option if you want to use our plugin as \"Coming Soon\" page."
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:354
+msgid "Select Theme"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:357
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:361
+msgid "Free Themes"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:385
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:389
+msgid "Premium Themes"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:421
+msgid "Logo"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:424
+msgid "Upload or select Logo"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:445
+msgid "Graphic Banner"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:451
+msgid "Banner Settings"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:456
+msgid "Custom Media"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:462
+msgid "Unsplash library"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:468
+msgid "Default Media"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:480
+msgid ""
+"Pro Tip! You can select multiple Media from your library by holding CTRL"
+"+click (Command+click if you sit on MacOS) while selecting photos."
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:498
+msgid "Choose Unsplash Feed"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:500
+msgid "Specific Photo"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:501
+msgid "Random from Category"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:502
+msgid "Random from Collection"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:503
+msgid "Random Photo"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:507
+msgid "Enter Unsplash Photo URL or Photo ID"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:512
+msgid "Select Category"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:514
+msgid "Buildings"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:515
+msgid "Food"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:516
+msgid "Nature"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:517
+msgid "People"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:518
+msgid "Technology"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:519
+msgid "Objects"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:522
+msgid "You can limit Category to Specific Keyword"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:527
+msgid ""
+"Enter Unsplash Collection URL or Collection ID. Doesn`t work for Curated "
+"Collections."
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:532
+msgid "Specify search terms"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:536
+msgid "Limit search only to Featured/Curated Photos"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:562
+msgid "Customize Fonts"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:566
+msgid "Headings Font"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:569
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:602
+msgid "Select from predefined Google Fonts or insert Custom font"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:587
+msgid "Custom font..."
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:591
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:625
+msgid "Enter name of "
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:599
+msgid "Content Font"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:620
+msgid "Custom Font..."
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:645
+msgid "Body Title"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:654
+msgid "Body Message"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:671
+msgid "Subscribe Form"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:677
+msgid "Subscribe Form Options"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:688
+msgid "3rd Party Plugin"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:694
+msgid "Niteo Subscribe"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:702
+msgid "Subscribe Form is disabled."
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:711
+msgid ""
+"You can find Shortode in your Contact Form Plugin settings. Should be "
+"something similar to code below: "
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:713
+msgid ""
+"Your Subscribe Form should have only one input (type=email) and submit "
+"(input=submit). If you have more than one input field, our design will not "
+"work and you need to use custom CSS to style your Subscribe form."
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:714
+msgid "Example of Subscribe Form code for "
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:726
+msgid ""
+"Default subscribe form will be displayed to visitors. Only export of email "
+"addresses to .csv file is supported. Mailing List will be deleted after "
+"deletion of CMP plugin."
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:732
+msgid "Total Subscribers: "
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:733
+msgid "Since last export: "
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:734
+msgid "Last Export Date: "
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:734
+msgid "Never exported"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:735
+msgid "Generate CSV"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:745
+msgid "Social Media"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:749
+msgid "Social Section Title"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:758
+msgid "Social Media Icons"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:802
+msgid "profile"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:829
+msgid "Footer Content"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:833
+msgid "Copyright"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:845
+msgid "SEO Settings"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:849
+msgid "Header Title"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:858
+msgid "Description"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:866
+msgid "Google Analytics Tracking ID"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:877
+msgid "Enter Custom CSS"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:891
+msgid "Save Changes"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/cmp-options.php:901
+msgid "Install New Coming Soon Theme"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/niteo-cmp.php:244
+msgid "Maintenance Mode Active"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/niteo-cmp.php:246
+msgid "Coming Soon Mode Active"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/niteo-cmp.php:436
+#: cmp-coming-soon-maintenance/tags/1.4.0/niteo-cmp.php:444
+msgid "Thank you, your sign-up request was successful!"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/niteo-cmp.php:447
+msgid "This email address has already been on our subscriber list."
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/niteo-cmp.php:452
+msgid "Please insert valid email."
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/themes/construct/construct-settings.php:37
+#: cmp-coming-soon-maintenance/tags/1.4.0/themes/hardwork/hardwork-settings.php:52
+#: cmp-premium-themes/fifty/fifty-settings.php:33
+#: cmp-premium-themes/frame/frame-settings.php:48
+#: cmp-premium-themes/hardwork_premium/hardwork_premium-settings.php:36
+msgid "Customize Colors"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/themes/construct/construct-settings.php:40
+#: cmp-premium-themes/fifty/fifty-settings.php:55
+#: cmp-premium-themes/frame/frame-settings.php:51
+msgid "Active Color"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/themes/construct/construct-settings.php:44
+msgid "Headings and active elements color (buttons, hover links, etc)."
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/themes/construct/construct-settings.php:49
+#: cmp-coming-soon-maintenance/tags/1.4.0/themes/hardwork/hardwork-settings.php:56
+#: cmp-premium-themes/fifty/fifty-settings.php:37
+#: cmp-premium-themes/frame/frame-settings.php:61
+#: cmp-premium-themes/hardwork_premium/hardwork_premium-settings.php:40
+msgid "Font Color"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/themes/construct/construct-settings.php:57
+#: cmp-premium-themes/fifty/fifty-settings.php:46
+msgid "Background Color"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/themes/hardwork/hardwork-settings.php:64
+#: cmp-premium-themes/frame/frame-settings.php:80
+#: cmp-premium-themes/hardwork_premium/hardwork_premium-settings.php:48
+msgid "Overlay Color"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/themes/hardwork/hardwork-settings.php:67
+msgid "Enable Overlay Color"
+msgstr ""
+
+#: cmp-coming-soon-maintenance/tags/1.4.0/themes/hardwork/hardwork-settings.php:73
+#: cmp-premium-themes/frame/frame-settings.php:86
+#: cmp-premium-themes/hardwork_premium/hardwork_premium-settings.php:53
+msgid "Overlay Opacity"
+msgstr ""
+
+#: cmp-premium-themes/fifty/fifty-settings.php:65
+#: cmp-premium-themes/frame/frame-settings.php:94
+#: cmp-premium-themes/hardwork_premium/hardwork_premium-settings.php:62
+msgid "Save All Changes"
+msgstr ""
+
+#: cmp-premium-themes/fifty/fifty-social_settings.php:20
+msgid "Social Icons Location"
+msgstr ""
+
+#: cmp-premium-themes/fifty/fifty-social_settings.php:24
+msgid "Below Content (big icons)"
+msgstr ""
+
+#: cmp-premium-themes/fifty/fifty-social_settings.php:25
+msgid "Footer (small icons)"
+msgstr ""
+
+#: cmp-premium-themes/fifty/fifty-theme.php:194
+#: cmp-premium-themes/fifty/fifty-theme.php:206
+#: cmp-premium-themes/hardwork_premium/hardwork_premium-theme.php:138
+#: cmp-premium-themes/hardwork_premium/hardwork_premium-theme.php:150
+msgid ""
+"To Display Graphic Media please upgrade CMP Plugin to latest version. You "
+"can download latest version on "
+msgstr ""
+
+#: cmp-premium-themes/fifty/fifty-theme.php:194
+#: cmp-premium-themes/fifty/fifty-theme.php:206
+#: cmp-premium-themes/hardwork_premium/hardwork_premium-theme.php:138
+#: cmp-premium-themes/hardwork_premium/hardwork_premium-theme.php:150
+msgid ""
+"or you can use automatic plugin update in WP-Admin > Plugins > CMP - Coming "
+"Soon & Maintenance Plugin > Update Now."
+msgstr ""
+
+#: cmp-premium-themes/frame/frame-settings.php:70
+msgid "Frame Color"
+msgstr ""

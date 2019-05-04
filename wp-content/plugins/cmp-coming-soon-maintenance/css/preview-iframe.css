@@ -1,0 +1,304 @@
+html, body {
+    height: 100%;
+    margin: 0;         /* Reset default margin on the body element */
+    font-family: 'Open Sans', 'Times New Roman', Georgia, Serif;
+}
+
+iframe {
+    display: block;       /* iframes are inline by default */
+    border: none;         /* Reset default border */
+    width: 100%;
+    height: 100vh;
+    min-height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    opacity: 0;
+    -webkit-transition: opacity 300ms ease-in-out;
+    transition: opacity 300ms ease-in-out;
+}
+
+iframe.loaded {
+    opacity: 1;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 0.8em;
+    margin-bottom: 0.5em;
+}
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width:9px;
+}
+::-webkit-scrollbar-thumb {
+    background:rgba(0,0,0,0.8);
+    border:none;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+    border-top-left-radius:0;
+    border-top-right-radius:0;
+}
+::-webkit-scrollbar-track {
+    background:rgba(170,170,170,0.8);
+}
+
+.background-wrap {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    -webkit-animation: fadeOut 600ms forwards;
+            animation: fadeOut 600ms forwards;
+}
+
+.open .background-wrap {
+    -webkit-animation: fadeIn 600ms forwards;
+            animation: fadeIn 600ms forwards;
+}
+
+
+
+
+#preview-customize {
+    position: fixed;
+    z-index: 11000;
+    width: 50vw;
+    height: 100%;
+    left: 100%;
+    top: 0;
+    background-color: #fff;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+    -webkit-transition: -webkit-transform .6s;
+    transition: -webkit-transform .6s;
+    transition: transform .6s;
+    transition: transform .6s, -webkit-transform .6s;
+}
+
+.open #preview-customize {
+    -webkit-transform: translate3d(-50vw,0,0);
+    transform: translate3d(-50vw,0,0); 
+}
+
+.customize-content {
+    padding: 20px;
+    padding-right: 0;
+    overflow-y: auto;
+    height: calc(100vh - 40px);    
+}
+
+.thumbnail {
+    padding: 5px;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    display: inline-block;
+    width: calc(34% - 27px);
+    margin-right: 5px;
+    margin-bottom: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.background-selector .thumbnail {
+    max-width: 140px;
+}
+
+.customize-content img {
+    max-width: 100%;
+    border-radius: 5px;
+    vertical-align: top;
+}
+
+.panel-wrapper {
+    position: absolute;
+    top: 135px;
+    padding: 10px;
+    cursor: pointer;
+    background: white;
+    -webkit-box-shadow: -10px 0px 25px -1px rgba(0, 0, 0, 0.05);
+    box-shadow: -10px 0px 25px -1px rgba(0, 0, 0, 0.05);
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -webkit-transition: -webkit-opacity .2s;
+    -webkit-transition: opacity .2s;
+    transition: opacity .2s;
+}
+
+.loaded .panel-wrapper {
+    -webkit-animation-name: slide-panel;
+    animation-name: slide-panel;
+    -webkit-animation-duration: 500ms;
+    animation-duration: 500ms;
+    -webkit-animation-delay: 500ms;
+    animation-delay: 500ms;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+.panel {
+    position: relative;
+    width: 50px;
+    height: 50px;
+}
+
+
+
+.panel:not(:last-of-type) {
+    border-bottom: 1px solid #f7f7f7;
+}
+
+
+.panel i {
+    position: relative;
+    top: 8px;
+    left: 13px;
+    color: #777;
+    font-size: 2em;
+    -webkit-transition: color 400ms ease-out;
+    transition: color 400ms ease-out;
+}
+
+.panel span {
+    font-size: 13px;
+    padding: 6px 14px 6px 14px;
+    position: absolute;
+    margin-right: 16px;
+    color: #777;
+    background-color: #fff;
+    display: inline-block;
+    right: 100%;
+    top: 0px;
+    border-radius: 3px;
+    font-weight: 600;
+    opacity: 0;
+    -webkit-transform-origin: 100% 50%;
+    -moz-transform-origin: 100% 50%;
+    -ms-transform-origin: 100% 50%;
+    -o-transform-origin: 100% 50%;
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+    -webkit-transition: all 100ms ease-out;
+    transition: all 100ms ease-out;
+    -webkit-box-shadow: -10px 0px 25px -1px rgba(0, 0, 0, 0.05);
+    box-shadow: -10px 0px 25px -1px rgba(0, 0, 0, 0.05);
+}
+
+.panel span:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+    top: 50%;
+    right: -4px;
+    margin-top: -5px;
+    border-width: 5px 0 5px 5px;
+    border-left-color: #fff;
+    color: #fff;
+}
+
+.panel:hover span {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.panel:hover i {
+    color: #999;
+}
+
+
+.purchase.free {
+  display: none;
+}
+
+.background-selector a,
+.background-selector a:visited {
+    color: #777;
+    text-decoration: none;
+}
+
+.background-selector a:hover,
+.background-selector .selected {
+    background: black;
+    color: #fff;
+}
+
+.background-selector i {
+    display: block;
+    font-size: 4em;
+}
+
+@-webkit-keyframes slide-panel{
+    from{left:0px}to{left:-70px}
+}
+
+@keyframes slide-panel{
+    from{left:0px}to{left:-70px}
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+  }
+  99% {
+    background-color: rgba(0,0,0,0);
+    z-index: 1;
+  }
+  100% {
+    background-color: rgba(0,0,0,0);
+    z-index: -1;
+  }
+}
+
+
+@keyframes fadeOut {
+  0% {
+    background-color: rgba(0,0,0,0.4);
+    z-index: 1;
+  }
+  99% {
+    background-color: rgba(0,0,0,0);
+    z-index: 1;
+  }
+  100% {
+    background-color: rgba(0,0,0,0);
+    z-index: -1;
+  }
+}
+
+
+@-webkit-keyframes fadeIn {
+  0% {
+    background-color: rgba(0,0,0,0);
+    z-index: 1;
+  }
+  99% {
+    background-color: rgba(0,0,0,0.4);
+     z-index: 1;
+  }
+  100% {
+    background-color: rgba(0,0,0,0.4);
+     z-index: 1;
+  }
+}
+
+
+@keyframes fadeIn {
+  0% {
+    background-color: rgba(0,0,0,0);
+    z-index: 1;
+  }
+  99% {
+    background-color: rgba(0,0,0,0.4);
+     z-index: 1;
+  }
+  100% {
+    background-color: rgba(0,0,0,0.4);
+     z-index: 1;
+  }
+}

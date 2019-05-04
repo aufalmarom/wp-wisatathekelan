@@ -1,0 +1,125 @@
+#wpadminbar ul li#wp-admin-bar-cmp-admin-notice{background:#2c3e50;}
+
+#toplevel_page_cmp-settings img {
+  max-width: 20px!important;
+  padding-top: 6px!important;
+}
+
+#wpadminbar .cmp-logo {
+    position: absolute;
+    display: inline-block;
+    height: 20px;
+    padding-right: 5px;
+    top: 6px;
+    left: 7px;
+}
+
+#wpadminbar #wp-admin-bar-cmp-admin-notice a {
+    padding-left: 30px;
+}
+
+#wpadminbar #wp-admin-bar-cmp-admin-notice .toggle-wrapper {
+  display: inline-block;
+}
+#wpadminbar #wp-admin-bar-cmp-admin-notice .toggle {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    width: 88px;
+    height: 32px;
+    margin-top: -2px;
+    font-weight: 600;
+    background: transparent;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    border: none;
+}
+
+#wpadminbar #wp-admin-bar-cmp-admin-notice .toggle:before, #wpadminbar .toggle:after {
+    position: absolute;
+    line-height: 32px;
+    font-size: 11px;
+    z-index: 2;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+}
+
+#wpadminbar #wp-admin-bar-cmp-admin-notice input[type=checkbox].toggle-checkbox {
+  display: none;
+}
+
+#wpadminbar #wp-admin-bar-cmp-admin-notice .toggle_handler {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    background: #c0392b;
+    width: 40px;
+    height: 20px;
+    top: 5px;
+    left: 5px;
+    -webkit-transition: all 200ms ease-in-out;
+    transition: all 200ms ease-in-out;
+    -webkit-transform: translateX(0px);
+    transform: translateX(0px);
+}
+
+#wpadminbar #wp-admin-bar-cmp-admin-notice .toggle-checkbox:checked + .toggle .toggle_handler {
+    -webkit-transform: translateX(40px);
+    transform: translateX(40px);
+    background: #27ae60;
+}
+
+#wpadminbar #wp-admin-bar-cmp-admin-notice .toggle-wrapper:hover .toggle_handler {
+  background: #e74c3c;
+}
+
+#wpadminbar #wp-admin-bar-cmp-admin-notice .toggle-wrapper:hover .toggle-checkbox:checked + .toggle .toggle_handler {
+  background: #2ecc71;
+}
+
+
+#wpadminbar #wp-admin-bar-cmp-admin-notice .toggle:before {
+    content: "OFF";
+    left: 15px;
+    color: #ffffff;
+}
+
+#wpadminbar #wp-admin-bar-cmp-admin-notice .toggle:after {
+    content: "ON";
+    right: 16px;
+    color: #ffffff;
+}
+
+#wpadminbar #wp-admin-bar-cmp-admin-notice .toggle-checkbox:checked + .toggle:before {
+    color: #ffffff;
+}
+
+#wpadminbar #wp-admin-bar-cmp-admin-notice .toggle-checkbox:checked + .toggle:after {
+    color: #ffffff;
+}
+
+@media screen and (max-width: 782px) {
+    #wpadminbar ul li#wp-admin-bar-cmp-admin-notice {
+        display: block;
+    }
+
+    #wpadminbar ul li#wp-admin-bar-cmp-admin-notice span {
+        display: none;
+    }
+
+    #wpadminbar #wp-admin-bar-cmp-admin-notice a {
+        padding-left: 40px;
+    }
+
+    #wpadminbar .cmp-logo {
+        height: 28px;
+        top: 9px;
+        left: 10px;
+    }
+}
+
+@media screen and (max-width:440px) {
+    #wpadminbar ul li#wp-admin-bar-cmp-admin-notice {
+        display: none;
+    }
+}

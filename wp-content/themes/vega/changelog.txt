@@ -1,0 +1,247 @@
+== Changelog ==
+
+= 2.3.4
+* 11/26/2017
+* Fixed top bar disply, fixed nav display
+
+= 2.3.3
+= 2.3.2
+* 11/25/2017
+* Fixed banner display when top bar was disabled
+* add_theme_support( 'woocommerce' );
+* Fixed woocommerce.php template (removed comments template)
+* Added some WooCommerce styling
+
+= 2.3.1
+* 05/19/2017
+* Fixed `get_stylesheet_directory` calls
+* `Search` was translateable before, reverted change made in 2.2.3
+
+= 2.3 
+* 05/17/2017
+* Fixed menu item titles (`wp_bootstrap_navwalker`)
+* Fixed mobile nav single page scroll items
+* Fixed missing entry-title, author, updated errors (https://www.wpcub.com/fix-missing-required-field-entry-titleupdatehcard-error-in-wordpress/)
+* `Search` is now translatable in searchform.php
+* Added Portuguese (Brazil) translation
+* Used get_stylesheet_directory instead of get_template_directory in some places
+
+= 2.2.3
+* 4/18/2017
+* Fixes for bootstrap columns
+
+= 2.2.2
+* 4/17/2017
+* Removed usage of vega_wp_rand_page()
+* Added post and page sidebars
+* Not loading Raleway anymore
+* Content page title for full width template
+* WC zoom, lightbox, slider support added
+* Added more WC styling
+
+= 2.2.1 
+* 1/27/2017
+* Removed content filter.
+
+= 2.2
+* 1/27/2017 [Major Update]
+* Fixed blank background color (removing color filter for CTAs)
+* New: Option to choose heading/title location under Posts, Pages (In Banner, In Body, In Banner and Body)
+* New: "Add New Page" links in customizer
+* New: Frontpage section background colors
+* New: Simple Banner option added (shows simple responsive image, no parallax)
+
+= 2.1.1.1 =
+* 1/20/2017
+* Fixed frontpage banner padding
+
+= 2.1.1 =
+* 1/20/2017
+* New: Added background/filter color options for call to action rows
+* Fix for SiteOrigin Page Builder (CTA, CTA2, Open Content)
+* Extended Latin font subsets included
+* Advanced > Custom CSS field removed if not needed
+
+= 2.1 =
+* New: added full page template
+* Fix: Top bar menu placement
+* New: Filter to wrap video embeds in div to make responsive
+
+= 2.0.2 =
+* 11/06/2016
+* Updated JS - tweak for top padding, nav height
+* vega_has_top_bar()
+* Nav/body padding fixes in header.php
+* Fix for comments, readmore buttons
+
+
+= 2.0.1 =
+* 10/31/2016
+* Parallax.js added back - issue with parallax images on iOS
+* Reworked nav-wrapper class and now adding height using jQuery to account for large number of navbar items (see resize_nav_wrapper)
+* Fixed parallax background overlay bug on mobile devices
+* Some sample images updated
+* Back to Top arrow changed to font-awesome
+
+= 2.0 =
+* 10/30/2016 [Major update]
+* Styling updated, use of font Raleway discontinued
+* Top navbar with 2 new menus added (top left, top right)
+* Parallax.js removed, new parallax backgrounds setup
+* apply_filters( 'the_content'... for front page content blocks
+* Tested qTranslateX, added some styling for sidebar flags widget
+* woocommerce.php added
+* vega_wp_title updated to include checks for WooCommerce
+* Customizer variable changed to vega_wp_blog_feed_readmore_text from vega_wp_blog_feed_readme_text
+* font-awesome updated to version 4.7
+* date_format was not working with get_the_date, specifying format explicitly now
+
+= 1.9.5 =
+* 10/04/2016
+* Loading of color stylesheet for child themes fixed
+* <span> tags for title, amended vega_wp_title()
+* `Read More`, `Comment`, `Comments`, `Leave Comment` labels can be specified in customizer
+
+= 1.9.4 =
+* 09/15/2016
+* Fixes for animated headings malfunctioning in Safari
+* Upgrade message amended
+* function_exists() used for appropriate function definitions
+
+= 1.9.3 =
+* 09/10/2016
+* Icon columns icon linked, heading linked
+* Icon columns "read more" button option added
+* Font Awesome updated to version 4.6.3
+* Footer widgets hide option added
+* style.css some subject tags removed
+* .pot file updated
+* (sample/demo data updated)
+
+= 1.9.2 =
+* 09/05/2016
+* Fixed bug - post title on single.php
+
+= 1.9.1 = 
+* 09/03/2016
+* Updated sample images
+* Sidebar example widgets
+* Menu example
+
+= 1.9 =
+* 09/03/2016
+* Disabled demo by default
+* Example footer sidebar shown if no widgets assigned
+* Fixed image size name 'vega-post-thumbnail-recent'
+* Translatable example widgets
+
+= 1.8.2 = 
+* 08/23/2016
+* Removed constant `SHOW_UPGRADE`
+* Removed filter on `comments_open` (plugin territory)
+* Fixed wp_enqueue_style() calls
+* Fixed footer credit links
+
+= 1.8.1 =
+* 8/9/2016
+* Image banners - redone. Fixed for mobile phones. Padding adjusted for different screen sizes.
+* CTA sections background fixes
+* Reorganized Colors and Logo sections in Customizer
+
+= 1.7.5 =
+* Date format
+* Escaping front page icon area text and banner text
+
+= 1.7.4 =
+* Further changes to vega_wp_title()
+
+= 1.7.3 =
+* Demo/default nav, sidebars tweaked
+* Funciton `vega_wp_title` updated
+* Escaping in banner-* files for vega_wp_title()
+
+= 1.7.2 =
+* More translation strings
+
+= 1.7.1 =
+* Translation for strings
+* Regenerated .pot file
+
+= 1.7 =
+* CSS fixes
+* New section added: Call to Action #2
+* Parallax enabled for front page banners (normal, full screen) 
+* Call to Action rows enabled with parallax backgrounds
+* Blog Feed "Hide Buttons" bug fixed for home page recent posts
+
+= 1.6.2 =
+* Typo fixed
+
+= 1.6.1 =
+* Optimized sample images
+
+= 1.6 =
+* Changed example content usage, removed most of it. Only used on front page display for display of front page sections when turned on, and front page section nav items when turned on
+* Sample images changed
+* Custom logo 
+* Some styling changes (blog feed, header/jumbotron image padding)
+* Copyright message 
+
+= 1.5 =
+* Changed sanitization of some items 
+* Escaped outputs
+
+= 1.4.3 =
+* Fixed background color for each front page section (moved color assignment inside "show" condition for each section).
+* get_stylesheet_uri instead of get_template_directory_uri in a couple of places
+* Removed option to hide admin bar
+* Replaced "include" with "get_template_part" in two files
+
+= 1.4.2 =
+* Changed the front page CTA and Open Content sections to use pages rather than fields to input text/html
+* Changed link to sample data file (vega.zip to vega-sample-data.zip)
+
+= 1.4 =
+* Changed fonts to Lato and Raleway
+* Changed styling of some elements
+* Added ID fields to each front page sections
+* Added one-page scrolling mechanism so a single-page website can be created
+* Removed scrollReveal.js and added wow.js to animate elements
+* Changed background colors
+* Changed size of top navigation (made it wider)
+* Prefixed global variables
+
+= 1.3.2 =
+* btn-custom:focus state was missing for green.css and blue.css
+* Added flag to hide upgrade/info message in customizer
+* Third-party assets enqueued with a generic handle
+
+= 1.3.1 =
+* Removed variables from some translation functions in customizer.php
+* Fixed domain (vega_wp changed to vega_wp) in a few lines
+* Released: March 13, 2016
+
+= 1.3 =
+* Added class "example-fullscreen-banner" for the demo/example full screen image banner
+* Removed "include()" from parts/ files and replaced with "get_template_part()"
+* Changed textdomain from vega_wp to vega
+* Custom CSS hooked to wp_head, removed from header.php
+* Blog feed CSS for max-width:680px fixed
+* Fix for background colors for frontpage sections
+* Fix for show/hide front page open content 
+* Fix for form-control:focus in blue, green themes
+* Changed code for icon columns to use a loop and panels in customize/scustomizer.php
+* Made images in page and post content automatically responsive ("img-responsive" class not needed)
+* Simplified code by using new function "vega_wp_get_option()" instead of get_theme_mod
+* Separated theme defaults into customizer/theme-defaults.php
+* Replaced text boxes with select/dropdowns for numeric options (number of icon columns, number of latest posts on front page)
+* Released: March 13, 2016
+
+= 1.1 =
+* Registered stylesheets (bootstrap, bootstrapsocial, fontawesome) and included them as dependencies for the main stylesheet
+* Corrected theme URI
+* Released: February 18, 2016
+
+= 1.0 =
+* Initial release
+* Released: February 17, 2016

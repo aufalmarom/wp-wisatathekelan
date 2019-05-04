@@ -1,0 +1,186 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Oshine Modules\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-01-05 10:58+0000\n"
+"PO-Revision-Date: 2017-01-05 10:59+0000\n"
+"Last-Translator: admin <swami@brandexponents.com>\n"
+"Language-Team: German\n"
+"Language: de-DE\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: plugin-update-checker/github-checker.php:119
+msgid "There is no changelog available."
+msgstr ""
+
+#: plugin-update-checker/plugin-update-checker.php:776
+msgid "Check for updates"
+msgstr ""
+
+#: plugin-update-checker/plugin-update-checker.php:820
+msgid "This plugin is up to date."
+msgstr ""
+
+#: plugin-update-checker/plugin-update-checker.php:822
+msgid "A new version of this plugin is available."
+msgstr ""
+
+#: plugin-update-checker/plugin-update-checker.php:824
+#, php-format
+msgid "Unknown update checker status \"%s\""
+msgstr ""
+
+#: includes/functions/ajax-handler.php:19
+msgid "All fields are required"
+msgstr ""
+
+#: includes/functions/ajax-handler.php:23
+msgid "Please enter a valid email address"
+msgstr ""
+
+#: includes/functions/ajax-handler.php:36
+msgid "Your message was sent successfully"
+msgstr ""
+
+#: includes/functions/ajax-handler.php:418
+msgid "Thank you, you have been added to our mailing list."
+msgstr ""
+
+#: includes/functions/helpers.php:78 includes/functions/helpers.php:80
+msgid "View all posts in"
+msgstr ""
+
+#: includes/functions/helpers.php:308
+msgid "First"
+msgstr ""
+
+#: includes/functions/helpers.php:311
+msgid "Prev"
+msgstr ""
+
+#: includes/functions/helpers.php:319
+msgid "Next"
+msgstr ""
+
+#: includes/functions/helpers.php:322
+msgid "Last"
+msgstr ""
+
+#: includes/functions/helpers.php:480
+msgid "Instagram Error : "
+msgstr ""
+
+#: includes/functions/helpers.php:489
+msgid ""
+"Instagram Error : Access Token is not entered under OSHINE OPTIONS > GLOBAL "
+"SITE LAYOUT AND SETTINGS. Access Token for your account can be generated "
+"from http://instagram.pixelunion.net/"
+msgstr ""
+
+#: includes/functions/helpers.php:530 includes/functions/helpers.php:535
+msgid "Flickr Error : "
+msgstr ""
+
+#: includes/icons/oshine-icons.php:854
+msgid "Oshine Icon Set"
+msgstr ""
+
+#: includes/modules/blog.php:38
+msgid ""
+"Apologies, but no results were found. Perhaps searching will help find a "
+"related post."
+msgstr ""
+
+#: includes/modules/contact_form.php:37
+msgid "Name"
+msgstr ""
+
+#: includes/modules/contact_form.php:40
+msgid "Email"
+msgstr ""
+
+#: includes/modules/contact_form.php:44
+msgid "Subject"
+msgstr "Fach"
+
+#: includes/modules/contact_form.php:48
+msgid "Message"
+msgstr ""
+
+#: includes/modules/contact_form.php:51
+msgid "Submit"
+msgstr ""
+
+#: includes/modules/gallery.php:160 includes/modules/portfolio.php:313
+msgid "Load More"
+msgstr ""
+
+#: includes/modules/gallery.php:169 includes/modules/justified_gallery.php:112
+msgid "Gallery Notice : "
+msgstr ""
+
+#: includes/modules/gallery.php:169 includes/modules/justified_gallery.php:112
+msgid "Images have either not been selected or couldn't be found"
+msgstr ""
+
+#: includes/modules/portfolio.php:139
+msgid "All"
+msgstr ""
+
+#: includes/modules/project_details.php:26
+msgid "Client"
+msgstr ""
+
+#: includes/modules/project_details.php:30
+msgid "Project Date"
+msgstr ""
+
+#: includes/modules/project_details.php:35
+msgid "Category"
+msgstr ""
+
+#: includes/modules/project_details.php:40
+msgid "Share This"
+msgstr ""
+
+#: includes/modules/project_details.php:49
+msgid "View Project"
+msgstr ""
+
+#: includes/modules/recent_posts_style_2.php:46
+msgid "Posted By :"
+msgstr ""
+
+#: includes/modules/recent_posts_style_2.php:47
+msgid " comments"
+msgstr ""
+
+#: includes/modules/recent_posts_style_2.php:48
+msgid "Under :"
+msgstr ""
+
+#. Name of the plugin
+msgid "Oshine Modules"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Shortcode Modules that come along with the OSHINE Theme, integrated with "
+"TATSU Page Builder plugin"
+msgstr ""
+
+#. URI of the plugin
+msgid "http://oshine.wpengine.com"
+msgstr ""
+
+#. Author of the plugin
+msgid "Brand Exponents"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://brandexponents.com"
+msgstr ""

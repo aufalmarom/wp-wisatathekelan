@@ -1,0 +1,1021 @@
+.cmp-coming-soon-maintenance {
+    overflow-x: hidden
+}
+
+.no-margin {
+    margin: 0
+}
+
+.cmp-coming-soon-maintenance .cmp-settings-wrapper {
+    position: relative;
+    margin-top: 1em
+}
+
+.cmp-coming-soon-maintenance .wrapper-disabled {
+    opacity: .4
+}
+
+.cmp-coming-soon-maintenance .comingsoon-error,
+.cmp-coming-soon-maintenance .comingsoon-success {
+    padding: 1em;
+    width: calc(100% - 4em);
+    border-left: 4px solid red;
+    background-color: #fff
+}
+
+.cmp-coming-soon-maintenance .comingsoon-success {
+    border-left: 4px solid #00d221
+}
+
+.cmp-coming-soon-maintenance .padding-bottom {
+    padding-bottom: 10px
+}
+
+.cmp-coming-soon-maintenance .select2-container--default .select2-selection--single,
+.cmp-coming-soon-maintenance input[type=text] {
+    border: 1px solid #d4d4d4;
+    border-radius: 4px;
+    line-height: 2.5em;
+    height: 2.5em;
+    -webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, .03);
+    box-shadow: inset 0 1px 2px rgba(0, 0, 0, .03)
+}
+
+.cmp-coming-soon-maintenance .select2-container .select2-selection--single {
+    height: 35px
+}
+
+.cmp-coming-soon-maintenance .select2-container--default .select2-selection--single .select2-selection__rendered {
+    line-height: 35px
+}
+
+.cmp-coming-soon-maintenance .select2-container--default .select2-selection--single .select2-selection__arrow {
+    top: 4px
+}
+
+.cmp-coming-soon-maintenance .select2-container:not(.select2-container--open) {
+    width: 100%!important;
+}
+
+.cmp-coming-soon-maintenance input[type=range] {
+    display: block;
+    -webkit-appearance: none;
+    background-color: #dedede;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    margin: 10px auto 0;
+    outline: 0
+}
+
+.cmp-coming-soon-maintenance input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: #0085ba;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    border: 1px solid #d4d4d4;
+    cursor: pointer;
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out
+}
+
+​.cmp-coming-soon-maintenance input[type=range]::-webkit-slider-thumb:hover {
+    background-color: #006799;
+    border: 2px solid #0085ba
+}
+
+.cmp-coming-soon-maintenance input[type=range]::-webkit-slider-thumb:active {
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2)
+}
+
+.cmp-coming-soon-maintenance input[type=text],
+.cmp-coming-soon-maintenance textarea {
+    width: 100%
+}
+
+.cmp-coming-soon-maintenance #niteoCS_countdown_redirect,
+.cmp-coming-soon-maintenance #niteoCS_countdown_text,
+.cmp-coming-soon-maintenance .table-wrapper.content,
+.cmp-coming-soon-maintenance .table-wrapper.install,
+.cmp-coming-soon-maintenance .table-wrapper.seo,
+.cmp-coming-soon-maintenance .table-wrapper.theme-setup {
+    display: none
+}
+
+.cmp-coming-soon-maintenance .wp-upload-form.cmp {
+    padding: 4em;
+    display: block
+}
+
+.cmp-coming-soon-maintenance .cmp-status legend {
+    width: 95%;
+    padding: 10px;
+    cursor: pointer
+}
+
+.cmp-coming-soon-maintenance .cmp-status .active {
+    background-color: #ddd
+} 
+
+.cmp-coming-soon-maintenance .redirect {
+    margin-bottom: 0
+}
+
+.cmp-coming-soon-maintenance .help-settings,
+.cmp-coming-soon-maintenance .subscribers-settings,
+.cmp-coming-soon-maintenance .table-wrapper,
+.cmp-coming-soon-maintenance .translate-settings {   
+    background-color: #fff;
+    border: 1px solid #dedede;
+    margin: 0 0 1em;
+    max-width: 920px
+}
+
+.cmp-coming-soon-maintenance div.custom_css {
+    padding-bottom: 2em;
+    padding-right: 3em;
+    background: white;
+    border: 1px solid #dedede;
+}
+
+.cmp-coming-soon-maintenance .CodeMirror-wrap {
+    border-right: 1px solid #dedede;
+}
+
+.cmp-coming-soon-maintenance .custom_css .cmp-submit {
+    padding-left: 1em;
+    border-top: 1px solid #dedede;
+    padding-top: 2em;
+}
+
+.cmp-coming-soon-maintenance .cmp-inputs-wrapper .translation input, 
+.cmp-coming-soon-maintenance .cmp-inputs-wrapper .translation textarea {
+    width: 100%;
+}
+
+.cmp-coming-soon-maintenance .cmp-inputs-wrapper {
+    display: inline-block;
+    max-width: 920px;
+    min-width: 920px
+}
+
+.cmp-coming-soon-maintenance .table-wrapper.closed table,
+.cmp-coming-soon-maintenance .translate-settings tfoot {
+    display: none
+}
+
+.cmp-coming-soon-maintenance .help-settings,
+.cmp-coming-soon-maintenance .subscribers-settings,
+.cmp-coming-soon-maintenance .translate-settings {
+    max-width: calc(920px - 2em);
+    min-width: calc(920px - 2em);
+    padding: 1em
+}
+
+.cmp-coming-soon-maintenance .table-wrapper h3,
+.cmp-coming-soon-maintenance .custom_css h3 {
+    position: relative;
+    padding: .5em 0 .5em 1em;
+    margin: 0;
+    border-bottom: 1px solid #dedede;
+    text-align: left
+}
+
+.cmp-coming-soon-maintenance #unsplash-media,
+.cmp-coming-soon-maintenance .background-media td fieldset,
+.cmp-coming-soon-maintenance .cmp-logo-switch.graphic {
+    padding-top: 1em
+}
+
+.cmp-coming-soon-maintenance .table-wrapper h3:not(.no-icon):not(.notice-title):not(#heading-example)::after {
+    font-family: fontAwesome;
+    content: "\f147";
+    position: absolute;
+    right: 10px;
+    font-weight: 400;
+    opacity: .6;
+    cursor: pointer;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.cmp-coming-soon-maintenance #niteoCS-text-logo,
+.cmp-coming-soon-maintenance .theme-title,
+.cmp-coming-soon-maintenance th label {
+    font-weight: 600
+}
+
+.cmp-coming-soon-maintenance .table-wrapper.closed h3:not(.no-icon):not(.notice-title)::after {
+    content: "\f196"
+}
+
+.cmp-coming-soon-maintenance .table-wrapper h4 {
+    margin: 0
+}
+
+.cmp-coming-soon-maintenance .table-wrapper table {
+    padding: 1em;
+    height: auto;
+    width: 90%
+}
+
+.cmp-coming-soon-maintenance .table-wrapper .theme-selector {
+    width: 100%
+}
+
+.cmp-coming-soon-maintenance .table-wrapper select {
+    margin-bottom: 10px;
+    width: 100%
+}
+
+.cmp-coming-soon-maintenance .table-wrapper td {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1em;
+    display: block
+}
+
+.cmp-coming-soon-maintenance #unsplash_img,
+.cmp-coming-soon-maintenance .table-wrapper td.theme-selector {
+    max-width: 100%
+}
+
+.cmp-coming-soon-maintenance .table-wrapper th {
+    vertical-align: top;
+    width: 180px;
+    text-align: left
+}
+
+.cmp-coming-soon-maintenance #delete-banner,
+.cmp-coming-soon-maintenance #delete-favicon,
+.cmp-coming-soon-maintenance #delete-logo,
+.cmp-coming-soon-maintenance #delete-video-thumb {
+    display: none
+}
+
+.cmp-coming-soon-maintenance .social-media {
+    margin-top: 0;
+    margin-bottom: 3em
+}
+
+.cmp-coming-soon-maintenance .social-inputs {
+    position: relative
+}
+
+.cmp-coming-soon-maintenance .social-inputs .label {
+    display: none;
+    font-weight: 600;
+    position: absolute;
+    top: -20px;
+    left: -8px
+}
+
+.cmp-coming-soon-maintenance #niteoCS-text-logo {
+    border: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    font-size: 3em
+}
+
+.cmp-coming-soon-maintenance .social-description {
+    margin-top: 0
+}
+
+.cmp-coming-soon-maintenance .social-inputs .label:nth-of-type(2) {
+    left: 62px
+}
+
+.cmp-coming-soon-maintenance .social-inputs .label:nth-of-type(3) {
+    left: 148px
+}
+
+.cmp-coming-soon-maintenance .social-media li {
+    display: inline-block;
+    padding-right: 1.5em;
+    padding-bottom: 1em
+}
+
+.cmp-coming-soon-maintenance .social-media i {
+    font-size: 2.45em;
+    cursor: pointer
+}
+
+.cmp-coming-soon-maintenance .social-media i.active {
+    color: #d54e21
+}
+
+.cmp-coming-soon-maintenance .social-inputs li {
+    display: none;
+    width: 100%
+}
+
+.cmp-coming-soon-maintenance .social-inputs li.active {
+    display: inline-block
+}
+
+.cmp-coming-soon-maintenance #custom_content_font,
+.cmp-coming-soon-maintenance #custom_headings_font,
+.cmp-coming-soon-maintenance .unsplash-feed {
+    display: none
+}
+
+.cmp-coming-soon-maintenance .social-inputs p {
+    position: relative;
+    padding-left: 50px;
+    height: 50px
+}
+
+.cmp-coming-soon-maintenance .social-inputs p i {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    font-size: 30px;
+    width: 30px;
+    cursor: move
+}
+
+.cmp-coming-soon-maintenance .theme-details,
+.cmp-coming-soon-maintenance .toggle {
+    cursor: pointer
+}
+
+.cmp-coming-soon-maintenance .social-inputs label {
+    padding-left: 100px
+}
+
+.cmp-coming-soon-maintenance .social-inputs input[type=text] {
+    margin-left: 100px;
+    width: calc(100% - 100px)
+}
+
+.cmp-coming-soon-maintenance .social-inputs input[type=checkbox] {
+    position: absolute;
+    width: 26px;
+    height: 26px;
+    top: 23px;
+    left: 65px
+}
+
+.cmp-coming-soon-maintenance .social-inputs input[type=checkbox]:checked:before {
+    margin: 3px 0 0 1px
+}
+
+.cmp-coming-soon-maintenance #unsplash_img {
+    display: none
+}
+
+.cmp-coming-soon-maintenance .color-preview,
+.cmp-coming-soon-maintenance .gradient-preview,
+.cmp-coming-soon-maintenance .pattern-wrapper {
+    background-repeat: repeat;
+    height: 200px;
+    border: 1px solid #ededed;
+    margin-top: 1em
+}
+
+.cmp-coming-soon-maintenance .theme-overlay .screenshot,
+.cmp-coming-soon-maintenance .thumbnail-holder {
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center
+}
+
+.cmp-coming-soon-maintenance .video-wrapper {
+    position: relative;
+    width: 100%;
+    margin-top: 1em
+}
+
+
+.cmp-coming-soon-maintenance #add-pattern {
+    margin-bottom: 1em
+}
+
+.cmp-coming-soon-maintenance .info {
+    font-size: 12px
+}
+
+.cmp-coming-soon-maintenance .nav-tab i {
+    padding-right: 3px
+}
+
+.cmp-coming-soon-maintenance .banner-wrapper,
+.cmp-coming-soon-maintenance .favicon-wrapper,
+.cmp-coming-soon-maintenance .logo-wrapper {
+    margin: 1em 0
+}
+
+.cmp-coming-soon-maintenance .favicon-wrapper img,
+.cmp-coming-soon-maintenance .logo-wrapper img {
+    background-color: #efefef;
+    padding: 1em
+}
+
+.cmp-coming-soon-maintenance .favicon-wrapper img {
+    max-width: 32px
+}
+
+.cmp-coming-soon-maintenance .background-media img,
+.cmp-coming-soon-maintenance .logo-wrapper img {
+    max-width: 100%;
+    width: 100%
+}
+
+.cmp-coming-soon-maintenance .logo-wrapper img {
+    max-height: 150px;
+    width: auto
+}
+
+.cmp-coming-soon-maintenance #font-example-wrapper {
+    padding: 1em;
+    border: 1px solid #dedede;
+    overflow: hidden
+}
+
+.cmp-coming-soon-maintenance #heading-example {
+    border-bottom: none;
+    line-height: 1.5;
+    padding: 0
+}
+
+.cmp-coming-soon-maintenance .font-selector td:first-of-type {
+    padding-bottom: 2em
+}
+
+.cmp-coming-soon-maintenance .font-selector fieldset {
+    padding: .5em 0
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper {
+    display: inline-block;
+    /* padding: .5em; */
+    margin: 2em 1em 2em 0;
+    width: calc(33.33% - 1.5em + 6px);
+    text-align: center;
+    border: 1px solid #efefef;
+    border-radius: 6px;
+    position: relative;
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper:nth-of-type(3n) {
+    margin-right: 0;
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper.active {
+    background-color: #ddd
+}
+
+.cmp-coming-soon-maintenance .thumbnail-holder {
+    width: 100%;
+    /* margin-bottom: 2em; */
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+.cmp-coming-soon-maintenance .thumbnail-holder::before {
+    content: '';
+    display: block;
+    padding-top: 56.25%;
+    -webkit-transition: background-color .1s;
+    transition: background-color .1s;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper:hover .thumbnail-holder::before {
+    background-color: rgba(0, 0, 0, 0.95);
+}
+
+
+.cmp-coming-soon-maintenance .toggle,
+.cmp-coming-soon-maintenance .toggle-wrapper {
+    display: inline-block
+}
+
+.cmp-coming-soon-maintenance .theme-title {
+    float: left;
+    text-transform: uppercase
+}
+
+.cmp-coming-soon-maintenance .theme-version {
+    float: right
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper .hide:not(.selected) {
+    opacity: 0;
+    -webkit-transition: opacity .1s, background-color .1s;
+    transition: opacity .1s, background-color .1s;
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper:hover .hide {
+    opacity: 1;
+    -webkit-transition: opacity .1s, background-color .1s;
+    transition: opacity .1s, background-color .1s;
+}
+
+
+.cmp-coming-soon-maintenance .theme-inputs {
+    position: absolute;
+    bottom: -36px;
+    right: 0px;
+    left: 0px;
+    /* padding-top: .5em; */
+    padding: 5px;
+    height: 2em;
+    background: #656565;
+    line-height: 2em;
+    padding-right: 10px;
+    color: white;
+}
+
+.cmp-coming-soon-maintenance .active .theme-inputs {
+    background: #27ae60;
+}
+
+.cmp-coming-soon-maintenance .theme-inputs .italic {
+    font-style: italic;
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper .buttons-wrapper {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+}
+
+.cmp-coming-soon-maintenance .cmp-button,
+.cmp-coming-soon-maintenance .cmp-preview,
+.cmp-coming-soon-maintenance .theme-wrapper .button {
+    height: 28px;
+    line-height: 28px;
+    padding: 0 10px;
+    min-width: 80px;
+    border-radius: 3px;
+    color: #fff!important;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s;
+    border: none!important;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.cmp-coming-soon-maintenance .cmp-button.submit,
+.cmp-coming-soon-maintenance .theme-actions .activate {
+    background-color: #c0392b;
+    color: #fff;
+    border: none;
+    -webkit-transition: background-color .5s;
+    transition: background-color .5s
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper a.button:visited,
+.cmp-coming-soon-maintenance .theme-wrapper a.button:focus {
+    background: transparent;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper a.button.theme-purchase {
+    background-color: #ff3284;
+}
+
+
+.cmp-coming-soon-maintenance .cmp-button.submit:focus,
+.cmp-coming-soon-maintenance .cmp-button.submit:hover,
+.cmp-coming-soon-maintenance .theme-actions .activate:focus,
+.cmp-coming-soon-maintenance .theme-actions .activate:hover {
+    background-color: #e74c3c;
+    color: #fff;
+    border: none
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper .button {
+    border: 2px solid #ffffff!important;
+    background: transparent;
+    width: 180px;
+    line-height: 2.5em;
+    height: 3em;
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper .button.theme-select input[type=radio] {
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper .button.theme-select input[type=radio]::before {
+    content: none;
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper .button.theme-select input[type=radio]::after {
+    content: '';
+    font-family: fontAwesome;
+    content: "\f096";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    opacity: 1;
+    color: #ffffff;
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper .selected.button.theme-select input[type=radio]::after {
+    content: "\f046";
+    color: #23282d;
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper.active .button.theme-select input[type=radio]::after {
+    content: "\f046";
+}
+
+
+.cmp-coming-soon-maintenance .theme-wrapper .button:hover,
+.cmp-coming-soon-maintenance .theme-wrapper a.button:hover {
+    background: #fff;
+    color: #23282d!important;
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper .button.theme-select:hover input[type=radio]::after,
+.cmp-coming-soon-maintenance .selected.button {
+    color: #23282d!important;
+}
+
+
+.cmp-coming-soon-maintenance .theme-wrapper .theme-select,
+.cmp-coming-soon-maintenance .theme-wrapper .theme-preview,
+.cmp-coming-soon-maintenance .theme-wrapper .theme-purchase {
+    margin-bottom: 5px;
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper .theme-select.selected {
+    background-color: #32b2ff;
+}
+
+.cmp-coming-soon-maintenance .theme-wrapper .theme-details.button {
+    line-height: 0em;
+
+}
+
+.cmp-coming-soon-maintenance .cmp-preview {
+    background-color: #2485bf!important;
+}
+
+.cmp-coming-soon-maintenance .cmp-preview:active,
+.cmp-coming-soon-maintenance .cmp-preview:hover {
+    background-color: #32b2ff!important;
+}
+
+.cmp-coming-soon-maintenance .theme-info .theme-purchase {
+    width: auto;
+    min-width: 40%;
+    height: 55px;
+    font-size: 2em;
+    background-color: #2c3e50;
+    border: none
+}
+
+.cmp-coming-soon-maintenance .theme-info .theme-purchase:focus,
+.cmp-coming-soon-maintenance .theme-info .theme-purchase:hover {
+    background-color: #34495e;
+}
+
+.cmp-coming-soon-maintenance .button i {
+    margin-right: 5px
+}
+
+.cmp-coming-soon-maintenance .theme-purchase a,
+.cmp-coming-soon-maintenance .theme-purchase a:hover,
+.cmp-coming-soon-maintenance .theme-purchase a:visited {
+    color: #fff;
+    text-decoration: none
+}
+
+.cmp-coming-soon-maintenance p.cmp-submit {
+    margin: 0;
+    padding-top: 0;
+    font-weight: 400;
+    text-align: left
+}
+
+.cmp-coming-soon-maintenance .theme-overlay .screenshot {
+    -webkit-transition: background-image .2s ease-in-out;
+    transition: background-image .2s ease-in-out
+}
+
+.cmp-coming-soon-maintenance .theme-overlay .screenshots-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: #fff;
+    cursor: pointer
+}
+
+.cmp-coming-soon-maintenance .theme-overlay .screenshots-nav div {
+    width: 40px;
+    height: 40px;
+    background-color: #000;
+    line-height: 40px;
+    opacity: .7;
+    -webkit-transition: opacity .5s;
+    transition: opacity .5s
+}
+
+.cmp-coming-soon-maintenance .fifty-layout input:checked+img,
+.cmp-coming-soon-maintenance .theme-overlay .screenshots-nav div:hover {
+    opacity: 1
+}
+
+.cmp-coming-soon-maintenance .toggle,
+.cmp-coming-soon-maintenance .toggle:after,
+.cmp-coming-soon-maintenance .toggle:before {
+    -webkit-transition: all .2s ease-in-out
+}
+
+.cmp-coming-soon-maintenance .theme-overlay .screenshots-nav .left {
+    float: left
+}
+
+.cmp-coming-soon-maintenance .theme-overlay .screenshots-nav .right {
+    float: right
+}
+
+.cmp-coming-soon-maintenance .theme-description ul {
+    list-style: none;
+    padding-left: 2em
+}
+
+.cmp-coming-soon-maintenance .theme-description h4,
+.cmp-coming-soon-maintenance .theme-description li {
+    font-size: 13px
+}
+
+.cmp-coming-soon-maintenance .theme-description .supported i {
+    color: green
+}
+
+.cmp-coming-soon-maintenance .theme-description .not-supported i {
+    color: red
+}
+
+.cmp-coming-soon-maintenance .wp-list-table .column-id {
+    width: 5%
+}
+
+.cmp-coming-soon-maintenance .cmp-status {
+    margin-bottom: 3em
+}
+
+.cmp-coming-soon-maintenance .toggle {
+    position: relative;
+    width: 200px;
+    height: 30px;
+    font-weight: 600;
+    background: 0 0;
+    border: 2px solid #f1f1f1;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    border-radius: 15px
+}
+
+.cmp-coming-soon-maintenance .toggle:after,
+.cmp-coming-soon-maintenance .toggle:before {
+    position: absolute;
+    line-height: 30px;
+    font-size: 14px;
+    z-index: 2;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out
+}
+
+.cmp-coming-soon-maintenance input[type=checkbox].toggle-checkbox {
+    display: none
+}
+
+.cmp-coming-soon-maintenance .toggle_handler {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    background: #c0392b;
+    width: 90px;
+    height: 24px;
+    top: 3px;
+    left: 5px;
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    border-radius: 10px 0 0 10px
+}
+
+.cmp-coming-soon-maintenance .toggle-checkbox:checked+.toggle .toggle_handler {
+    width: 90px;
+    -webkit-transform: translateX(100px);
+    transform: translateX(100px);
+    background: #27ae60;
+    border-radius: 0 10px 10px 0
+}
+
+.cmp-coming-soon-maintenance .toggle-wrapper:hover .toggle_handler {
+    background: #e74c3c
+}
+
+.cmp-coming-soon-maintenance .toggle-wrapper:hover .toggle-checkbox:checked+.toggle .toggle_handler {
+    background: #2ecc71
+}
+
+.cmp-coming-soon-maintenance .toggle:before {
+    content: "Disabled";
+    left: 22px;
+    color: #fff
+}
+
+.cmp-coming-soon-maintenance .toggle-checkbox:checked+.toggle:before,
+.cmp-coming-soon-maintenance .toggle:after {
+    color: #23282d
+}
+
+.cmp-coming-soon-maintenance .toggle:after {
+    content: "Enabled";
+    right: 26px
+}
+
+.cmp-coming-soon-maintenance .toggle-checkbox:checked+.toggle:after {
+    color: #fff
+}
+
+.cmp-coming-soon-maintenance .fifty-layout label {
+    display: block;
+    position: relative;
+    padding-bottom: 1em;
+    margin-top: 1em
+}
+
+.cmp-coming-soon-maintenance .fifty-layout input {
+    visibility: hidden;
+    position: absolute;
+    margin: 0
+}
+
+.cmp-coming-soon-maintenance .fifty-layout img {
+    display: block;
+    opacity: .3;
+    outline: solid 1px;
+    padding: 2px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.cmp-coming-soon-maintenance .cmp-sidebar-wrapper {
+    display: inline-block;
+    width: calc(100% - 6em - 920px);
+    max-width: 350px;
+    min-width: 300px;
+    margin-left: 1em;
+    padding-top: 0;
+    vertical-align: top;
+    text-align: center
+}
+
+.cmp-coming-soon-maintenance .cmp-sidebar-wrapper .widget {
+    padding: 2em;
+    border: 1px solid #dedede;
+    background: #fff
+}
+
+.cmp-coming-soon-maintenance .widget.donate img {
+    max-width: 50px
+}
+
+.cmp-coming-soon-maintenance .widget.donate img.niteo-logo {
+    max-width: 120px
+}
+
+.cmp-coming-soon-maintenance .cmp-rate-us .button,
+.cmp-coming-soon-maintenance .cmp-rate-us a {
+    display: block;
+    text-align: center
+}
+
+.cmp-coming-soon-maintenance .cmp-rate-us a {
+    padding: 1em 0
+}
+
+.cmp-coming-soon-maintenance .cmp-rate-us .button {
+    max-width: 150px;
+    margin: 0 auto 1em
+}
+
+.cmp-coming-soon-maintenance .cmp-rate-us form {
+    text-align: center
+}
+
+.cmp-coming-soon-maintenance .subscribers .column-id {
+    width: 5%
+}
+
+@media screen and (max-width:1450px) {
+    .cmp-coming-soon-maintenance .cmp-inputs-wrapper {
+        min-width: 70%
+    }
+    .cmp-coming-soon-maintenance .cmp-sidebar-wrapper {
+        width: calc(30% - 2em + 7px)
+    }
+    .cmp-coming-soon-maintenance .theme-wrapper,
+    .cmp-coming-soon-maintenance .theme-wrapper.premium {
+        width: calc(50% - 3em - 5px)
+    }
+}
+
+@media screen and (max-width:1270px) {
+    .cmp-coming-soon-maintenance .cmp-inputs-wrapper {
+        min-width: 100%
+    }
+}
+
+@media screen and (max-width:1110px) {
+    .cmp-coming-soon-maintenance .theme-wrapper,
+    .cmp-coming-soon-maintenance .theme-wrapper.premium {
+        margin-right: 0;
+        width: calc(100% - 5px)
+    }
+    .cmp-coming-soon-maintenance .table-wrapper th {
+        display: block
+    }
+    .cmp-coming-soon-maintenance .cmp-sidebar-wrapper .widget {
+        padding: 1em
+    }
+
+}
+
+@media screen and (max-width:1024px) {
+    .cmp-coming-soon-maintenance .table-wrapper table {
+        width: 100%
+    }
+    .cmp-coming-soon-maintenance .table-wrapper th {
+        width: 140px
+    }
+
+
+}
+
+@media screen and (max-width:782px) {
+    .cmp-coming-soon-maintenance .social-inputs input[type=checkbox]:checked:before {
+        margin: -1px 0 0 -4px
+    }
+    .cmp-coming-soon-maintenance .cmp-inputs-wrapper,
+    .cmp-coming-soon-maintenance .cmp-sidebar-wrapper {
+        display: block;
+        max-width: 100%;
+        width: 100%;
+        margin: 0
+    }
+    .cmp-coming-soon-maintenance .cmp-sidebar-wrapper .widget {
+        padding: 2em;
+        margin-bottom: 1em!important
+    }
+
+    .cmp-coming-soon-maintenance .theme-overlay .theme-info,
+    .cmp-coming-soon-maintenance .theme-overlay .theme-screenshots {
+        width: 100%;
+        float: none
+    }
+    .cmp-coming-soon-maintenance input[type=text],
+    .cmp-coming-soon-maintenance textarea {
+        font-size: 13px
+    }
+}
+
+@media screen and (max-width:560px) {
+    .cmp-coming-soon-maintenance .social-inputs .label:nth-of-type(2) {
+        left: 50px
+    }
+    .cmp-coming-soon-maintenance .social-inputs .label:nth-of-type(3) {
+        left: 105px
+    }
+    .cmp-coming-soon-maintenance .social-inputs p i {
+        top: 22px
+    }
+    .cmp-coming-soon-maintenance .social-inputs input[type=checkbox] {
+        top: 28px;
+        left: 53px
+    }
+    .cmp-coming-soon-maintenance .social-inputs label {
+        padding-left: 55px
+    }
+    .cmp-coming-soon-maintenance .social-inputs input[type=text] {
+        margin-left: 55px;
+        width: calc(100% - 55px)
+    }
+}
+

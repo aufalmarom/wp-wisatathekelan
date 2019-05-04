@@ -1,0 +1,1638 @@
+/*
+ Theme Name: Gaga Corp
+ Theme URI: http://demo.accesspressthemes.com/gaga-corp/
+ Description: Gaga Corp is the child theme of Gaga Lite with new looks and added features. The theme has elegant service section design with modern and trendy looks, Newsletter section, progress bar to show your statistics, different designed pricing table and much more..
+ Author: AccesspressThemes
+ Author URI: http://accesspressthemes.com/
+ Template: gaga-lite
+ Version: 1.0.4
+ License: GNU General Public License v3 or later
+ License URI: http://www.gnu.org/licenses/gpl-3.html
+ Tags: right-sidebar, left-sidebar, fluid-layout, custom-background, featured-image-header, sticky-post, threaded-comments, featured-images, full-width-template, responsive-layout, custom-colors, translation-ready
+ Text Domain: gaga-corp
+*/
+
+
+#toggle {
+    display: none;
+}
+
+
+.testimonial-post-wrap .bx-viewport{
+   
+}
+
+#plx_about_section img
+{
+	width: 45%;
+	margin-right: 20px;
+	float: left;
+
+}
+
+#plx_about_section .about_section_title{
+	text-align: right !important;
+	margin-bottom: -30px;
+}
+
+#plx_about_section .combine_content .buy {
+    text-align: left;
+}
+
+.slider_capation
+{
+	
+}
+span.wpcf7-form-control-wrap{
+	display:block;
+	position:relative;
+}
+#plx_news_letter_section span.wpcf7-not-valid-tip {
+	color: #f00;
+    font-size: 10px;
+    display: block;
+    position: absolute;
+    bottom: -15px;
+    left: 0;
+}
+#home_slider .slider_capation .slider_title {
+    float: left !important;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: block;
+    margin: auto;
+    color: #FFF;
+    clear: both;
+    width: auto;
+    clear: right;
+    margin-bottom: 2px;
+    margin-left:30%;
+    padding:0px 15px 0px 15px !important;
+}
+
+.slider_area .gaga_lite_slider .slider_capation .slider_content
+{
+	margin-left:30%;
+}
+
+#home_slider p
+{
+	display: block;
+    float: left; 
+    color:#FFF !important;
+    padding: 0px 15px 0px 15px;
+    background-color: rgba(0, 0, 0, 0.3);
+    margin-right: 30%;
+    font-size: 38px;
+} 
+
+.slider_content span
+{
+	 background-color: #35c5e0;
+     display: block;
+     padding: 0px 15px 0px 15px;
+     margin-left: -15px; 
+     margin-right:-15px; 
+     font-size: 38px; 
+     color:#FFF !important;
+}
+
+.slider_area .gaga_lite_slider .bx-pager.bx-default-pager .bx-pager-item a.bx-pager-link {
+    display: inline-block;
+    width: 30px;
+    border-bottom: 5px solid #000000;
+    color: #000000;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
+    margin: 0px;
+    margin-left: 5px;
+    border-radius: 0px;
+    text-indent: 0px;
+    background: none;
+    height: auto !important;
+}
+
+#home_slider .slider_caption .slider_content 
+{
+	text-align: center;
+}
+
+#home_slier .slider_content_inner
+{
+	text-align: center;
+}
+
+.slider_area .gaga_lite_slider .slider_capation .slider_content {
+    font-size: 31px;
+    text-align: left;
+    margin-top: 3px;
+    display: block;
+    width: 100%;
+    float: left;
+}
+
+.slider_caption p
+{
+	text-align: center;
+}
+
+.testimonial_section
+{
+	width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 0;
+}
+
+.services-wrap
+{
+	float: left;
+	display: inline-block;
+	text-align: center;	
+	width: 33.33%;
+	padding: 60px 25px 60px 0px;
+	box-sizing:border-box;
+}
+
+.faq_div .faq-t {
+    line-height: 1em;
+    color: #FFF;
+    background-color:#42c4e4;
+    font-family: sans-serif;
+    float: left;
+    font-weight: 700;
+    padding-right: 0.3em;
+    -webkit-transition: all 200ms;
+    -moz-transition: all 200ms;
+    transition: all 200ms;
+    text-align: center;
+    padding: 2px 5px 2px 5px;
+    margin-right: 10px;
+    margin-top: 5px;
+}
+
+.faq_div .faq-a
+{
+	padding-left:30px;
+}
+
+.services-wrap .news_letter_feature_image_class {
+    float: none !important;
+    margin: auto !important;
+    width: 90px !important;
+    height: 90px !important;
+    line-height: 85px;
+    text-align: center;
+    padding: 0px !important;
+    border: 1px solid rgba(0, 0, 0, 0);
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.services-wrap .news_letter_feature_image_class:hover{
+	border: 1px solid;
+}
+
+.services-wrap .news_letter_feature_image_class img{
+	width: 80px;
+	height: 80px;
+	vertical-align: middle;
+	border-radius: 50%;
+	padding:0;
+}
+
+#plx_progress_faq_section .faq_section_title{
+	text-align: center;
+	margin-bottom:40px;
+}
+
+#plx_progress_faq_section{
+	width: 100%;
+	display: table;
+	clear: both;
+}
+
+#plx_progress_faq_section .progress_bar {
+	width: 50%;
+	float: left;
+}
+#plx_progress_faq_section .progressBar{
+	width: 100%;
+    margin-bottom: 8px;
+}
+#plx_progress_faq_section .question_border_bottom{
+	margin-top:0;	
+}
+
+.faq-descr{
+	color: #ff0000;
+}
+
+
+#plx_progress_faq_section .Progress_title
+{
+	font-weight: bold;
+	font-size: 17px;
+	margin-bottom:5px;
+}
+
+.bi-bar
+{
+	border-radius:25px;
+} 
+
+.faq-descr
+{
+	font-size: 33px;
+	text-align: center;
+	color: #000;
+}
+
+#plx_progress_faq_section .faq_div{
+	width: 45%;
+	float: right;
+	display: inline-block;;
+}
+
+.faq_div .faq-q
+{
+	margin-bottom: 10px;
+}
+
+.news_letter_feature_title_class
+{
+ font-size: 60px;
+ color:#FFF;
+ text-align: center;
+}
+
+.news_letter_feature_description_class
+{
+	font-size: 24px;
+	color: #FFF;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+#plx_news_letter_section .news_letter_container
+{
+	background-color:#3ec5e4;
+}
+
+.news_letter_feature_image_class
+{
+	float:right;
+	display: inline-block;
+	width: 50%;
+}
+
+ #plx_news_letter_section .news_letter_feature_image_class img
+ {
+ 	width: 100%;
+ }
+
+.news_letter_left
+{
+	float:left;
+	width: 40%;
+	padding-top: 35px;
+	margin-left: 50px;
+	background-color: #3ec5e4;
+}
+
+.wpcf7 form span input, .wpcf7 form span textarea {
+    border-top:0px;
+    border-right:0px;
+    border-left: 0px;
+    border-radius: 0px;
+    padding: 5px;
+    font-size: 14px;
+    color: #FFF;
+    outline: none;
+    /*margin-left: 50px;*/
+    background-color:#3ec5e4;
+}
+
+.wpcf7 form span input
+{
+	color:#FFF;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+color: #FFF !important;
+opacity: 1;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+color: #FFF !important;
+opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+color: #FFF !important;
+opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+color: #FFF !important;
+opacity: 1;
+}
+.news_letter_feature_contact_class p{
+	margin-bottom:12px;
+}
+.wpcf7 input.wpcf7-text { color:#FFF; font-size:16px;  }
+.news_letter_left div.wpcf7-validation-errors {
+    border: 2px solid #f7e700;
+    position: absolute;
+    padding: 25px 10px 5px;
+    width: 100%;
+    margin: 0;
+    bottom: 0;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.news_letter_feature_contact_class form{
+    position: relative;
+    display: table;
+    width: 100%;
+    text-align: center;
+}
+.news_letter_feature_contact_class form p input[type="submit"]{
+
+	    width: 180px;
+    background-color: #FFF !important;
+    color: #3ec5e4;
+    font-size: 16px;
+    float:none;
+    z-index: 1;
+    position: relative;
+}
+.news_letter_feature_contact_class form p input[type="submit"]:hover{
+	    border-color: #fff!important ;
+    background: transparent!important ;
+    color: #fff!important ;	
+}
+.news_letter_feature_contact_class form p input:focus{
+	color:#fff ;	
+}
+
+section img
+{
+	vertical-align: middle;
+}
+
+section#plx_news_letter_section {
+    background-color: #3ec5e4;
+    width: 100%;
+    display: table;
+    overflow:hidden;
+ 
+}
+
+.gaga_lite_feature_corp-6:hover {
+    width: 85px;
+    height: 85px;
+    border: 4px solid #000;
+    border-radius: 50%;
+}
+
+
+.site-footer
+{
+	background-color: #3a3a3a;
+}
+
+.work-posts-wrap-latest
+{
+	width:188px;
+	color: #D8D8D8;
+}
+
+.work-posts-wrap-latest figure img
+{
+	width:75px;
+	border: 6px solid #2d2d2d;
+	color: #FFF;
+	display: inline-block;
+	float: left;
+}
+
+.footer_2 .widget h1
+{
+	color:#FFF !important;
+	font-size: 16px !important;
+    margin-bottom: 20px !important;
+}
+
+.footer_3 .widget h1
+{
+	color:#FFF !important;
+	font-size: 16px !important;
+    margin-bottom: 20px !important;
+}
+
+.footer_4 .widget h1
+{
+	color:#FFF !important;
+	font-size: 16px !important;
+    margin-bottom: 20px !important;
+}
+
+.footer_widget_view .widget-title h1
+{
+	color:#FFF !important;
+}
+
+#gaga_lite_latest_work-2 h1
+{
+	color:#FFF !important;
+	font-size: 16px !important;
+	margin-bottom: 	20px !important;
+}
+
+#gaga_lite_latest_work-2 h3 
+{
+    font-size: 12px !important;
+    font-family: Lato!important;
+    color: #7b7b7b !important;
+    display: inline-block !important;
+    font-weight: bold !important;
+    line-height: 10px;
+    margin-top: 5px;
+}
+
+#gaga_lite_latest_work-2 
+{
+	width:100%;
+	float: left;
+	display: inline-block;
+}
+
+ #gaga_lite_latest_work-2 img
+{
+	display: inline-block !important;
+	width: 100% !important;
+	float: left !important;
+	padding-top: 10px;
+	background-color:#2c2c2c;
+	padding: 	3px; 	
+	margin-top:5px;
+	margin-bottom: 	15px;
+} 
+
+.work-posts-wrap-latest a:first-child
+{
+	width: 40% !important;
+	display: inline-block;
+	float: left;
+	padding-right:5px; 
+}
+
+.work-posts-wrap-latest a:nth-child(2n)
+{
+	width: 60% !important;
+	display: inline-block;
+	float: left;
+	padding-right:5px; 
+}
+
+#gaga_lite_latest_work-2 .work_date_sub
+{
+	font-style: italic !important;
+	font-size:12px !important;
+	color: #7b7b7b !important;
+	width: 60% !important;
+    display: inline-block !important;
+    float: left;
+    line-height: 10px;
+    margin-top: 0px;
+}
+
+.footer_widget_view .work-posts-wrap-latest
+{
+	width: 100% !important;
+	float: left !important;
+	display: inline-block !important;
+}
+
+.footer-bg .footer_1 {
+    float: left;
+    width: 25%;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.footer-bg .footer_2 {
+    float: left;
+    width: 20%;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.footer-bg .footer_3 {
+    float: left;
+    width: 25%;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.footer-bg .footer_4 {
+    float: left;
+    width: 25%;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.footer_2 .tagcloud a
+{
+	background-color: #2d2d2d;
+	padding: 8px;
+	font-size: 12px !important;
+	margin: 5px;
+	font-weight: bold;
+	color: #6f6f6f !important;
+}
+
+.footer_2 .tagcloud a:hover
+{
+	background-color: #FFF;
+}
+
+.footer_4 {
+    float: left;
+    width: 25%;
+    display: inline-block;
+    padding: 0px 15px;
+}
+
+.footer-bg
+{
+	background-color:#3a3a3a;
+
+}
+
+.footer-bg .site-footer
+{
+	margin:0;
+	padding:80px 0;   
+}
+
+.main_footer {
+    border-top: 4px solid #ed1b2f;
+    padding: 25px 0px;
+    font-size: 13.5px;
+    color: #a0a9b6;
+    text-transform: capitalize;
+}
+
+.work-posts-wrap-latest h1
+{
+	color:#FFF;
+}
+
+.footer_4 .wpcf7 form span input, .wpcf7 form span textarea {
+    
+   border:1px solid #404040;
+   padding: 5px;
+   font-size: 12px;
+   color: #b9b9b9 !important;
+   outline: none;
+   margin-left: 0px;
+   background-color:#333333;
+}
+
+.footer_4 .textwidget input[type="submit"]{
+	
+	background-color: #222222 !important;
+	font-size: 12px !important;
+	float: left !important;
+	margin-top: 5px !important;
+	padding:8px 15px 8px 15px !important;
+	font-weight: bold !important;
+    line-height: 10px !important;
+    color: #6f6f6f;
+    text-shadow:none !important;
+}
+
+.footer_4 .wpcf7 form p {
+    font-size: 11px;
+    color: #b9b9b9;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+
+#recent-comments-3 ul
+{
+	margin: 0px;
+	padding:0px;
+}
+
+#recentcomments ul
+{
+	margin: 0px;
+	padding:0px;
+}
+
+li.recentcomments {
+    position: relative;
+    padding-left: 10px;
+}
+
+li.recentcomments:before {
+    content: "\f105";
+    font-size: 21px;
+    color: #5a5a5a;
+    position: absolute;
+    left: 0;
+    top: 2px;
+    font: normal normal normal 14px/1 FontAwesome;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.recentcomments a {
+    display: inline !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    color:#a3a3a3;
+    font-weight: bold;
+}
+
+.pricing_widget .widget_gaga_lite_pricing{
+	
+}
+   
+.pricing_widget.clearfix {
+	margin-left:0px !important;
+    margin-top: 50px;
+	text-align:center;
+}
+.pricing_widget .widget_gaga_lite_pricing{
+	display:inline-block;
+	float:none;
+	width:33.33%;
+	padding:0 15px;	
+}
+.pricing_widget .widget_gaga_lite_pricing .gaga-pricing-table{
+	margin:0;
+	padding-bottom:15px;	
+}
+.pricing_widget .widget_gaga_lite_pricing .gaga-pricing-head{
+	position:relative;
+	top:0;	
+	background:#333;
+	padding:20px 0;
+}
+
+.pricing_section .per_tex {
+   margin-top:0;
+}
+.pricing_widget .widget_gaga_lite_pricing:hover .gaga-pricing-head{
+	background:#3bc6e3;	
+}
+.pricing_section
+{
+	width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.5);
+    z-index: 0;
+}
+
+.widget_footer {
+    display: inline-block !important;
+    width: 100%;
+    height: 15px;
+    background-image:none !important;
+    background-color: #fff !important;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.pricing_section .gaga-pricing-plan-sub-text
+{
+	color:#FFF !important;
+	font-size: 28px !important;
+	display: block;
+	padding-top: 0px !important;
+	padding-bottom: 20px;
+    border-bottom: 1px solid #414141; 
+}
+
+.pricing_section .per_tex>.percent {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    float: none;
+    color: #ffffff !important;
+    font-weight: lighter;
+    line-height: initial;
+    text-transform: lowercase;
+    font-size: 26px;
+    padding-top: 10px !important;
+}
+.pricing_section .per_tex>.percent span{
+	display:block;	
+}
+
+.pricing_section .gaga-pricing-features-inner
+{
+	font-size: 14px !important;
+	font-weight: bold;
+	line-height: 30px !important;
+}
+
+.gaga-pricing-features ul li
+{
+	margin-top:0px;
+	padding:7px 0;
+	border-top:1px solid #f0f0f0;
+}
+.gaga-pricing-features ul li:nth-child(odd){
+	background:#f9f9f9;	
+}
+.gaga-pricing-features ul li:last-child{
+	background:none;	
+}
+
+
+.pricing_widget .sign_up_price
+{
+	width: 87%;
+	border-radius:3px;
+	text-align: center !important;
+	margin: auto;
+    height:45px;
+    vertical-align:top !important;
+	background-color: #333333 !important;
+}
+
+.pricing_section .pricing_widget .sign_up_price {
+   background-color: #333333 ;
+   text-align: center;
+   margin:auto;
+   padding:0px;
+  }
+
+.pricing_section .pricing_widget .sign_up_price:hover {
+    background-color: #3ec5e3 ;
+    color:#FFF;
+  }
+ 
+.aps-group-horizontal .aps-icon-link img
+{
+	display: inline-block;
+}
+
+.plx-sections h2 {
+    font-size: 36px !important;
+    font-family: Lato!important;
+    color: #3bc6e3;
+    text-align: center;
+}
+
+.testimonial_section
+{
+	width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 0;
+}
+
+ .owl-carouse .nbs-flexisel-nav-right {
+    right: 0px;
+    height: 35px;
+    width: 35px;
+    margin-top: -7px;
+    background: url(images/slider-arrow-next.png) no-repeat;
+}
+
+.owl-carouse .nbs-flexisel-nav-left {
+    left: 0px;
+    height: 35px;
+    width: 35px;
+    margin-top:-7px;
+    background: url(images/slider-arrow-prev.png) no-repeat;
+}
+
+.bxslider_testimonial .slider_content p, .bxslider_testimonial .slider_title
+{
+	font-weight: 300;
+    font-size: 16px !important;
+    line-height: 24px;
+    color: #FFF;
+    text-align:center;
+    margin-left: -15px;
+}
+
+.testimonial-title h2 span {
+    display: block;
+    color: #FFF;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 18px;
+}
+
+.bx-wrapper .bx-pager {
+    text-align: center;
+    font-size: .0em;
+    font-family: Arial;
+    font-weight: bold;
+    color: #666;
+    padding-top: 20px;
+}
+
+.simpleFAQ_list .question {
+    padding-left: 18px;
+    background-color:#3cc5e7;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+ }
+
+.question_title
+{
+	font-size: 16px;
+	font-weight:bold;
+	padding: 10px;
+}
+
+.simpleFAQ_item .answer {
+    margin-left: 1.3em;
+    border: 0px solid #66c;
+    padding: 0.6em;
+}
+
+.question_border_bottom
+{
+	border-bottom: 0px solid #cbcbcb;
+	margin-top: 17px;
+	padding-bottom: 30px;
+}
+
+.bxslider_testimonial .slider_content p, .bxslider_testimonial .slider_title
+{
+    font-weight: 300;
+    font-size: 16px !important;
+    line-height: 24px;
+    color: #FFF !important;
+}
+
+.testimonial-title h2 span {
+    display: block;
+    color: #FFFFFF !important;
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 18px;
+}
+
+.slider_area .gaga_lite_slider .bx-pager.bx-default-pager .bx-pager-item a.bx-pager-link {
+    display: inline-block;
+    width: 30px;
+    border-bottom: 5px solid #000000;
+    color: #000000;
+    text-align: center;
+    font-size: 12px !important;
+    font-weight: 300;
+    line-height: 26px;
+    margin: 0px;
+    margin-left: 5px;
+    border-radius: 0px;
+    text-indent: 0px;
+    background: none;
+    height: auto !important;
+}
+
+.simpleFAQ_list .question {
+    padding-left: 18px;
+    background-color: #3cc5e7;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    padding-top: 2px !important;
+}
+
+.simpleFAQ_item .answer {
+    margin-left: 1em;
+    border: 0px solid #66c !important; 
+    padding: 1.3em !important;
+}
+
+section#plx_progress_faq_section {
+    background-color: #FFF;
+    padding: 50px;
+}
+
+.faq_section_title span {
+    display: block;
+}
+
+.faq_section_title h2 span {
+    display: block;
+    font-size: 42px;
+    font-weight: bold;
+    text-transform: uppercase !important;
+    color: #3ec5e3;
+}
+
+.faq_section_title h2 {
+    color: #000 !important ;
+    font-size: 18px !important;
+    font-weight: normal;
+}
+
+.skill_section
+{
+    
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 0;
+}
+
+.work-posts-wrap-latest img
+{
+    width:100%;
+}
+
+.footer_1 .widget h1 {
+    color: #FFF !important;
+    font-size: 16px !important;
+    margin-bottom: 20px !important;
+}
+
+.footer_1 .widget h3 {
+    font-size: 12px !important;
+    font-family: Lato!important;
+    color: #A3A3A3  !important;
+}
+
+.work_date_sub {
+    font-size: 10px;
+}
+
+
+
+.widget-area li
+{
+        padding: 10px 0px 10px 11px !important;
+}
+.sidebar_background li.recentcomments:before
+{
+    top: 12px !important;
+}
+.comment-author-link a.url {
+    color: #A3A3A3;
+}
+.gaga_twite .aptf-tweet-actions-wrapper.aptf-tweet-actions {
+    display: none;
+}
+.gaga_twite a.aptf-tweet-name {
+    display: none;
+}
+.gaga_twite {
+    background: #3BC6E3;
+    padding: 0 0 20px 0;
+}
+.gaga_twite .bx-wrapper .bx-controls-direction a{
+    top: 0;
+    margin-top: 0;
+}
+.gaga_twite span{
+    float: left;
+    width: 10%;
+    margin-top: 22px;
+}
+.gaga_twite .widget{
+    margin: 0;
+    width: 90%;
+    display: inline-block;
+}
+.gaga_twite .bx-wrapper .bx-viewport{
+    height: auto !important;
+}
+
+.gaga_twite i.fa.fa-twitter {
+    color: #fff;
+    font-size: 25px;
+}
+.gaga_twite .aptf-tweet-content {
+    color: #fff;
+    font-size: 15px;
+}
+ .gaga_twite .bx-wrapper .bx-controls-direction a{
+   top: 33px;
+}
+.gaga_twite a.bx-next {
+    background-image: url(images/next.png);
+}
+.gaga_twite a.bx-prev {
+    background-image: url(images/prev.png);
+}
+.corp_menu{
+    position:absolute;
+    width: 100%;
+    z-index: 99;
+}
+.corp_menu .top_inner_header{
+	width:100%;
+	display:table;
+	padding:10px 0;	
+}
+
+
+/* NAV */
+.corp_menu .aps-each-icon+.aps-each-icon{
+	margin-left:5px;	
+}
+.social_link_header{
+	position:absolute;
+	right:0;	
+}
+.corp_menu .main-navigation{
+	padding-top:32px;	
+}
+.corp_menu .main-nav-scrolled .main-navigation{
+	padding-top:23px;	
+}
+
+.main-navigation .menu-menu-1-container, .main-navigation .nav {
+    float: none;
+    padding-right: 0;
+    padding-top: 3px;
+}
+
+.main-navigation ul>li+li {
+    padding-left: 20px;
+}
+
+
+.corp_menu #menu {
+    right: 0px ;
+    width: 70%;
+    top:10px;
+	position:relative ;
+	float:right;
+    
+}
+
+.main-navigation .nav {
+    
+    padding-right: 0px !important;
+    
+}
+
+.main-navigation ul>li a {
+    
+    padding:0px !important;
+}
+.main-nav-scrolled .social_link_footer{
+    display: none;
+}
+
+.main-nav-scrolled #menu{
+    top:0px;
+}
+.main-nav-scrolled .social_link_header{
+	display:none;	
+}
+
+
+
+.bx-wrapper .bx-next {
+    opacity: 1 !important;
+}
+.bx-wrapper .bx-prev
+{
+    opacity:1 !important;
+}
+
+.bx-wrapper .bx-prev {
+    right: -55px;
+  }
+  
+  .bx-wrapper .bx-next {
+    right: -80px;
+  
+}
+
+.gaga_twite span {
+    float: left;
+    width: 5%;
+    margin-top: 22px;
+}
+
+
+
+.widget_gaga_lite_pricing:hover {
+    /* margin-top: -5px; */
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    transform: scale(1.1) !important;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.aps-group-horizontal {
+    margin-top: 5px;
+    /* margin-bottom: 5px !important; */
+    font-size: 14px;
+}
+
+.icon-1-1 img {
+    height: px;
+    width: 25px !important;
+    opacity: 1;
+    -moz-box-shadow: 0px 0px 0px 0;
+    -webkit-box-shadow: 0px 0px 0px 0;
+    box-shadow: 0px 0px 0px 0;
+    padding: 0px;
+}
+
+.icon-1-2 img {
+    height: px;
+    width: 25px !important;
+    opacity: 1;
+    -moz-box-shadow: 0px 0px 0px 0;
+    -webkit-box-shadow: 0px 0px 0px 0;
+    box-shadow: 0px 0px 0px 0;
+    padding: 0px;
+}
+
+
+.icon-1-3 img {
+    height: px;
+    width: 25px !important;
+    opacity: 1;
+    -moz-box-shadow: 0px 0px 0px 0;
+    -webkit-box-shadow: 0px 0px 0px 0;
+    box-shadow: 0px 0px 0px 0;
+    padding: 0px;
+}
+
+
+.icon-1-4 img {
+    height: px;
+    width: 25px !important;
+    opacity: 1;
+    -moz-box-shadow: 0px 0px 0px 0;
+    -webkit-box-shadow: 0px 0px 0px 0;
+    box-shadow: 0px 0px 0px 0;
+    padding: 0px;
+}
+
+
+.portfolio-positing {
+    position: relative;
+    margin: 0px;
+    line-height: 0px;
+    overflow: hidden;
+    border: 5px solid rgba(0, 0, 0, 0);
+}
+
+/* .portfolio-positing:hover {
+    border: 5px solid rgba(255, 255, 255, 0.2);
+}*/
+
+
+/* .portfolio-positing img:before {
+    content:'';
+    position: relative  ;
+   left:    2%;
+   right:   2%;
+    width: 90%;
+    height: 90%;
+    border: 4px solid black;
+}*/
+
+
+.portfolio-positing img {
+    width: 100%;
+    -webkit-transition: all 2s ease 0s;
+    -moz-transition: all 2s ease 0s;
+    transition: all 2s ease 0s;
+     border: 6px solid rgba(255,255,255,0); 
+   
+  
+}
+
+
+.portfolio-positing:hover .portfolio_main {
+    background: rgba(59,198,227,0.88);
+    border: 6px solid rgba(255, 255, 255, 0.42);
+}
+
+.social_link_header {
+    float: right;
+}
+
+/*added style*/
+
+.gaga-pricing-table{
+	padding-top:0px !important;
+	margin-top:0px !important;
+	background:#fff !important;	
+}
+.aps-each-icon .aps-icon-tooltip-top{
+	display:none !important;	
+}
+.footer_4 .textwidget textarea{
+	border-color:#404040;	
+}
+.portfolio_section .fadeInDown{
+	margin-bottom:100px;	
+}
+.portfolio_section .portfolio-post-wrap{
+	padding:0 15px;	
+}
+.gaga_twite .bx-controls-direction{
+	position: absolute;
+    top: 0;
+    right: 5%;	
+}
+.main_footer .social_link_footer{
+	width:auto;	
+}
+.sidebar_background .widget_search form input[type="text"]{
+	width:80%;	
+}
+.sidebar_background .widget_search form input[type="submit"]{
+	border:0;
+	text-indent:-999999px;
+	background:url(images/search-128.png) no-repeat;
+	box-shadow:none;
+	top: -1px;
+    position: relative;	
+}
+.sidebar_background .widget_search form input[type="submit"]:hover{
+	box-shadow:none;
+	border:0;	
+}
+.sidebar_background .widget_search form input[type="submit"]:focus{
+	border:0 !important;;	
+}
+ .inner_header{
+	height:250px !important;	
+}
+
+
+.no-results .page-content form input[type="submit"]{
+	border:0;
+	text-indent:-999999px;
+	background:url(images/search-128.png) no-repeat;
+	box-shadow:none;
+	top: -1px;
+    position: relative;
+}
+.no-results .page-content form input[type="text"]{
+	width:80%;	
+}
+.content-area{
+	position:relative;	
+}
+.no-results{
+	position:relative;	
+}
+.no-results {
+	margin-bottom:20px;	
+}
+.no-results .page-header h1.page-title{
+	position:relative !important;
+	line-height:normal !important;
+	text-align:left;
+	color:#000 !important;	
+}
+
+
+/*====================responsive style=================*/
+@media (max-width:1200px){
+	.portfolio_section .portfolio-post-wrap{
+		padding:0 5px;	
+	}
+	.news_letter_left div.wpcf7-validation-errors{
+		border:0;
+	}
+}
+@media (max-width:1100px){
+	.social_link_header{
+		right:2%;	
+	}
+	.corp_menu .main-navigation{
+		padding-right:0px;	
+	}
+	
+	.portfolio_section .portfolio-post-wrap{
+		padding:0;
+	}
+	.portfolio_section  .portfolio_main .portfolio_content a{
+		padding:15px 0;
+	}
+	.portfolio_section .portfolio_view_all{
+		margin-top:20px;	
+	}
+	.wpcf7 form span input, .wpcf7 form span textarea{
+		margin-left:0;	
+	}
+	.slider_area .gaga_lite_slider .slider_capation .slider_content, #home_slider .slider_capation .slider_title{
+		margin-left:0;	
+	}
+	#home_slider p{
+		margin-right:0 !important;	
+	}
+}
+
+@media (max-width:980px){
+	.portfolio_section .portfolio-post-wrap{
+		width:33.33%;	
+	}
+	.news_letter_left{
+	    width: 100%;
+	    margin: 0 0 30px 0;
+	    padding: 0 20px;
+	}
+	 .news_letter_feature_image_class{
+			width:100%; 
+	 }
+	
+	 .slider_area .gaga_lite_slider .slider_capation .slider_title{
+			font-size:35px !important; 
+	 }
+	 #home_slider p, .slider_content span{
+			font-size:27px !important; 
+	 }
+	 
+}
+@media (max-width:820px){
+	#toggle{
+		top:16px;
+		z-index:9999;	
+	}
+	.social_link_header #sidebar, .social_link_header #sidebar aside{
+		margin-bottom:0;	
+	}
+	.main-nav-scrolled #toggle{
+		top:0;	
+	}
+	.footer-bg .footer_1, .footer-bg .footer_2, .footer-bg .footer_3, .footer-bg .footer_4{
+		width:50%;	
+		min-height: 355px;
+	}
+	#toggle {
+    	display: block;
+	}
+}
+
+@media (max-width:768px){
+	.slider_area .gaga_lite_slider .slider_capation .slider_title{
+		font-size:18px !important;	
+	}
+	#home_slider p, .slider_content span {
+    font-size: 16px !important;
+	font-weight:normal !important;
+}
+#plx_about_section .gaga_lite_background{
+	padding:70px 0 !important;	
+}
+
+	.portfolio_section .portfolio-post-wrap{
+		width:50%;	
+	}
+	.plx-sections .about_corp_image, #plx_about_section .combine, #plx_about_section .combine_content{
+		width:100% !important;	
+	}
+	#plx_about_section img{
+		float:none;
+		width:100%;
+	}
+	#plx_about_section .about_section_title{
+		text-align:left !important;	
+		display:inline-block;
+	}
+	#plx_about_section{
+		padding:0 !important;	
+	}
+	.services-wrap{
+		width:50%;	
+	}
+	.plx-sections .widget_gaga_lite_pricing:hover{
+		margin:0 0 20px 0;
+		transform:none !important;	
+	}
+	.pricing_widget .widget_gaga_lite_pricing{
+		width:100%;
+		margin-bottom:20px;	
+	}
+	section#plx_progress_faq_section{
+		padding:50px 0;	
+	}
+	#plx_progress_faq_section .progress_bar{
+		width:100%;
+		margin-bottom:20px;	
+	}
+	#plx_progress_faq_section .faq_div{
+		width:100%;	margin-bottom:20px;
+	}
+	#plx_progress_faq_section .faq_div .simpleFAQ_list{
+		margin:0;	
+	}
+	#plx_progress_faq_section .faq_section_title{
+		margin-bottom:50px;	
+	}
+	.gaga_twite .bx-controls-direction{
+		right:15%;	
+	}
+	.content-area, .widget-area-right{
+		padding:0 !important;	
+	}
+	.gaga_twite span{
+		width:10%;	
+	}
+	.work-posts-wrap-latest a:first-child{
+		margin-right:10px;	
+	}
+	.work-posts-wrap-latest a:first-child{
+		width:35% !important;	
+	}
+}
+@media (max-width:655px){
+	.corp_menu .main-navigation{
+		padding:0;	
+	}
+	.corp_menu #menu{
+		width:100%;	
+	}
+	.corp_menu .main-navigation ul{
+		padding:20px 0;	
+	}
+	.main-navigation ul>li+li{
+		padding:0;	
+	}
+	.main-navigation ul>li{
+		margin-bottom:20px;	
+	}
+}
+
+@media (max-width:550px){
+	.news_letter_feature_contact_class form p input[type="submit"]{
+		margin-left:0;	
+	}
+	.portfolio_section .fadeInDown{
+		margin-bottom:50px;	
+	}
+	.service_section, .team_section, .skill_section, .blog_section, .portfolio_section, #plx_client_section, .pricing_section, #plx_cta_section, .testimonial_view{
+		padding:70px 0 !important;	
+	}
+	.gaga_twite .bx-controls-direction{
+		right:18%;	
+	}
+	.gaga_twite i.fa.fa-twitter{
+		font-size:20px;	
+	}
+	.gaga_twite span{
+		margin-top:24px;	
+	}
+}
+
+@media (max-width:480px){
+
+	.portfolio_section .portfolio-post-wrap{
+		width:100%;	
+	}
+	#plx_feature_section{
+		padding:50px 0;	
+	}
+	.services-wrap{
+		width:100%;
+		padding:0;
+		margin-bottom:20px;	
+	}
+	.footer-bg .footer_1, .footer-bg .footer_2, .footer-bg .footer_3, .footer-bg .footer_4{
+		width:100%;
+		min-height:0;	
+	}
+	.gaga_twite .bx-controls-direction {
+    right: 25%;
+}
+}
+
+/** progress bar css **/
+.progressBar {
+width: 500px;
+height: 8px;
+border-radius: 5px;
+background-color: #e6e9ed;
+}
+.progressBar div {
+height: 100%;
+color: #fff;
+text-align: center;
+background-color: #0099ff;
+width: 0px;
+border-radius: 5px;
+   
+}
+.bar1 div{
+   background-color: #3fc5ea;  
+}
+.bar2 div{
+   background-color: #ef752c;  
+}
+.bar3 div{
+   background-color: #4cc4c2;  
+}
+.bar4 div{
+   background-color: #f33c72;  
+}
+h2.about_section_title span, 
+.testimonial-title h2 span, 
+.portfolio_section h2 span,
+.skill_section_title h2 span,
+.client_section_title h2 span,
+.pricing_section h2 span,
+.blog_sectio_title h2 span,
+.blog_latest_post h2 span{
+	line-height: 50px;
+}
+#plx_portfolio_section .portfolio_view_all{
+	padding:80px 0;
+}
+.main-navigation .current a{
+    color: #3ec5e4 ;
+}
+h1.widget-title{
+    border-color: #3ec5e4 ;
+    color:#3ec5e4;
+}
+.main_footer{
+    border-top-color:#3ec5e4  !important;
+}
+.entry-footer a, .comment-author .fn a, .inner .arcive_title a{
+    color:#3ec5e4 !important;
+}
+.widget-area li:hover a{
+    color:#3ec5e4 !important;
+}
+.widget-area li:hover, .entry-header h1.entry-title a{
+    border-color: #3ec5e4 !important;
+}
+.reply a, #plx_about_section .combine_content .buy a{
+    background: #3ec5e4;
+}
+
+.team-descr, .highlite, .aptf-tweet-content>a, .entry-footer a, .team_section .team-descr, .slider_area .gaga_lite_slider .bx-pager.bx-default-pager .bx-pager-item a.bx-pager-link.active, .widget-area li:hover a, span.gaga-pricing-plan-sub-text, .slider_area .gaga_lite_slider span.next-page a, .inner .arcive_read_more a:hover, .comment-metadata .edit-link a:hover, .reply a:hover, .inner #respond .form-submit input:hover, .team-post-wrap>a:hover, .blog_latest_post a.read_more:hover, .blog_read_more a:hover, a.view_all_latest:hover, .portfolio_view_all a:hover, .cta_btn_link a:hover, input.wpcf7-submit:hover, .site-info a:hover, .logged-in-as a, .author a, .nav-links a:hover, .nav-previous a:hover:before, .nav-next a:hover:before, .archive_pagination a:hover:before, .comment-author b.fn, .comment-author .fn a, .comment-awaiting-moderation, .widget-area ul.sub-menu>li:hover a, .tagcloud a, .widget h1 a, .comment-respond h3 small a:hover, a.aptf-tweet-reply.aptf-tweet-action-reply, .pricing_widget .sign_up_price:hover, .pricing_widget .sign_up_price:hover .pricing-position-inner:before, strong, span.tags-links, .comment-content p a, .comment-content dl dd a, .comment-content table tbody tr td a, #wp-calendar tr td a, .about-contents a, a.aptf-tweet-name, .aptf-tweet-content a, .aptf-tweet-content a, #plx_shop_section #Container div.mix .price ins, .woocommerce-page ul.products li.product .price, #plx_shop_section #Container div.mix .price .amount, .woocommerce-page div.product p.price, .woocommerce-page .content-area button.button.alt:hover, .woocommerce-page div.product .woocommerce-tabs ul.tabs li a:hover, .woocommerce-page div.product .woocommerce-tabs ul.tabs li.active a, .woocommerce-page .woocommerce-info:before, .woocommerce-page .woocommerce-message a.wc-forward:hover, .woocommerce-page .content-area-left h1.page-title, .woocommerce-page .woocommerce-message:before, .woocommerce-page div.product .stock, .woocommerce-page .cart .button:hover, .woocommerce-page .cart input.button:hover, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover, td.product-name a, .woocommerce-message a:hover, .woocommerce a.remove, #plx_shop_section .shop-product .shop_view_all input:hover, .woocommerce-page .widget_price_filter .price_slider_amount .button:hover, .service_section_title h2, .cta_section_title h2, #plx_service_section .service-posts-wrap .service_title a h3, .blog_title a h3, .blog-posts-wrap-latest a h3, .footer_widget_view .contact_title, .posted_in a, .woocommerce.widget_product_categories ul li a:hover, 
+.woocommerce .widget_layered_nav ul li a:hover, .comment-reply-title small a
+{
+    color:#3ec5e4 !important;
+}
+.main-navigation ul > li a:hover, .main-navigation .current a, .inner h2.entry-title, .comment-meta a, #plx_about_section .combine_content .buy a:hover, .team_section h2, .skill_section_title h2, .portfolio_section h2, .client_section_title h2, .pricing_section h2, .blog_sectio_title h2, .blog_latest_post h2, .testimonial-title h2{
+    color:#3ec5e4;
+}
+
+.cta_btn_link a, input.wpcf7-submit, .blog_latest_post a.read_more, hr.border, .blog-posts .main_like_comment span, .blog-posts-wrap-latest .sub_like_comment span, .nav-next a, .nav-previous a, .blog_read_more a, .team-post-wrap > a, a.view_all_latest, .portfolio_view_all a, .cta_btn_link a, input.wpcf7-submit, #respond .form-submit input, .testimonial_section .bx-wrapper .bx-pager.bx-default-pager a.active, .port_slide #slider-prev, .port_slide #slider-next, .inner .main_like_comment span, #toggle div, .inner .arcive_read_more a, .reply a, .comment-metadata .edit-link a, #plx_service_section .service-posts-wrap .service_image figure img, .archive_pagination a, .pricing_widget .sign_up_price:hover .pricing-position-outer, .pricing_widget .sign_up_price, #plx_shop_section #Container div.mix .item-img a.item-wishlist, .woocommerce-page ul.products li.product a.item-wishlist, #plx_shop_section #Container div.mix .item-img a.cart-contents_product, .woocommerce-page ul.products li.product a.cart-contents_product, .woocommerce-page .inner ul.products li span.onsale, .woocommerce-page .content-area span.onsale, .woocommerce-page div.product a.item-wishlist, .woocommerce-page .content-area button.button.alt, .woocommerce-page .content-area button.button.alt, .woocommerce-page .woocommerce-message a.wc-forward, .woocommerce-page #payment #place_order, .woocommerce-page .inner_content_background .entry-content a.add_to_cart, .woocommerce-page .widget_price_filter .price_slider_amount .button, .woocommerce-page #respond input#submit, .woocommerce-page .cart .button, .woocommerce-page .cart input.button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce a.remove:hover, .woocommerce a.remove:hover, #plx_shop_section .shop-product .shop_view_all input, #plx_shop_section #Container div.mix .item-img span.onsale, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-range, .woocommerce-page .widget_price_filter .ui-slider .ui-slider-handle
+{
+    background: #3ec5e4 !important;
+}
+#plx_service_section .service-posts-wrap:first-child, #plx_service_section .service-posts-wrap:nth-child(2),#plx_service_section .service-posts-wrap:nth-child(odd),.entry-header h1.entry-title a, h1.widget-title,#respond h3,.slider_area .gaga_lite_slider .bx-pager.bx-default-pager .bx-pager-item a.bx-pager-link.active,.widget-area li:hover,.comments-title,#toggle,.inner .arcive_read_more a:hover,.comment-metadata .edit-link a:hover,.reply a:hover,.inner #respond .form-submit input:hover,#plx_about_section .combine_content .buy a:hover,.team-post-wrap>a:hover,.blog_latest_post a.read_more:hover,.blog_read_more a:hover,.portfolio_view_all a:hover,.cta_btn_link a:hover,input.wpcf7-submit:hover,a.view_all_latest:hover,#plx_service_section .service-posts-wrap,#secondary .widget_search input.search-field,.nav-links a:hover,.widget-area li.menu-item-has-children:hover>a,.archive_pagination a:hover,.pricing_widget .sign_up_price:hover, .woocommerce-page .content-area button.button.alt, .woocommerce-page .content-area button.button.alt, .woocommerce-page .woocommerce-message a.wc-forward, .woocommerce-page #payment #place_order, .woocommerce-page .inner_content_background .entry-content a.add_to_cart, .woocommerce-page .widget_price_filter .price_slider_amount .button, .woocommerce-page #respond input#submit, .woocommerce-page .cart .button, .woocommerce-page .cart input.button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, #plx_shop_section .shop-product .shop_view_all input
+{
+border-color:#3ec5e4 !important;
+}
+.reply a:hover, #plx_service_section, .woocommerce-page .content-area button.button.alt:hover, .woocommerce-page .woocommerce-message a.wc-forward:hover, .woocommerce-page .cart .button:hover, .woocommerce-page .cart input.button:hover, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover, .woocommerce-page .inner_content_background .entry-content a.add_to_cart:hover, .woocommerce-page .cart .button:hover, #plx_shop_section .shop-product .shop_view_all input:hover, .woocommerce-page .widget_price_filter .price_slider_amount .button:hover, #respond input#submit:hover, .inner .arcive_read_more a:hover, #plx_about_section .combine_content .buy a:hover, .team-post-wrap > a:hover, .portfolio_view_all a:hover, .blog_latest_post a.read_more:hover, .blog_read_more a:hover, a.view_all_latest:hover, .nav-next a:hover, .nav-previous a:hover{
+    background: transparent!important; 
+}
+.comment-respond input::-webkit-input-placeholder { 
+    color:#999!important; 
+    } 
+.comment-respond input::-moz-placeholder { 
+color:#999!important; 
+} /* FF 19+ */ 
+.comment-respond input:-moz-placeholder { 
+color:#999!important; 
+} /* FF 18- */ 
+.comment-respond input:-ms-input-placeholder {
+    color:#999 !important; 
+} 
+.comment-respond input[placeholder]{ 
+    color:#2B2A2A !important;
+} /* for the polyfill */
+input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="search"], textarea{
+    color: #2B2A2A  !important;
+}
+.woocommerce-page .woocommerce-message{
+    border-top-color:#3ec5e4 !important;
+}
+.nav-previous a:hover:after, .nav-next a:hover:after, .archive_pagination a.prev:hover:after, .archive_pagination a.next:hover:after
+{
+    background: #3ec5e4 !important;
+    opacity: 0.3;
+}
+#plx_shop_section .shop-product h2, .woocommerce-info a{
+    color:#3ec5e4!important;
+    
+}
+li.recentcomments {
+    color: #a3a3a3;
+}
